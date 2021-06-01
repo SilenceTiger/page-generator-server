@@ -1,0 +1,20 @@
+{
+    "files.associations": {
+      ".eslintrc.js": "javascriptreact",
+      "*.js": "javascriptreact"
+    },
+    "editor.tabSize": 2,
+    "files.eol": "\n",
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    "editor.formatOnType": true,
+    "editor.formatOnSave": true,
+    "editor.wordWrap": "on",
+    "editor.suggestOnTriggerCharacters": true,
+    "emmet.showAbbreviationSuggestions": false,
+    "files.exclude": {
+      "**/.idea": true,
+      "**/.gradle": true,
+      "**/out": true
+    }
+  }
