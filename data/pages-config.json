@@ -1,3400 +1,697 @@
 [
   {
-    "id": 1,
-    "config": [
-      {
-        "layout": {
-          "height": 600
-        },
-        "modules": [
-          {
-            "type": "threeStars",
-            "title": "Three Stars",
-            "layout": {
-              "width": 100
-            },
-            "options": {},
-            "data": {}
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": 2,
-    "config": [
-      {
-        "layout": {
-          "height": 600
-        },
-        "modules": [
-          {
-            "type": "earth",
-            "title": "Earth",
-            "layout": {
-              "width": 100
-            },
-            "options": {},
-            "data": {}
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": 3,
-    "config": [
-      {
-        "layout": {
-          "height": 468
-        },
-        "modules": [
-          {
-            "type": "banner",
-            "title": "Banner",
-            "layout": {
-              "width": 100
-            },
-            "options": {
-              "title": "Mamba out.",
-              "titleConfig": {
-                "fontSize": 20,
-                "color": "#ffffff",
-                "fontWeight": "bolder",
-                "position": {
-                  "left": 20,
-                  "top": 10
-                }
-              },
-              "content": "Kobe is the best basketball player.",
-              "contentConfig": {
-                "color": "#efefef",
-                "fontSize": 14,
-                "position": {
-                  "left": 30,
-                  "top": 50
-                }
-              },
-              "imgUrl": "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2552568315,2503293885&fm=26&gp=0.jpg",
-              "objectFit": "fill"
-            },
-            "data": {}
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": 5,
-    "config": [
-      {
-        "layout": {
-          "height": 600
-        },
-        "modules": [
-          {
-            "type": "earth",
-            "title": "Earth",
-            "layout": {
-              "width": 100
-            },
-            "options": {},
-            "data": {}
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": 6,
-    "config": [
-      {
-        "layout": {
-          "height": 550
-        },
-        "modules": [
-          {
-            "type": "banner",
-            "title": "Banner",
-            "layout": {
-              "width": 100
-            },
-            "options": {
-              "title": "Curry!",
-              "titleConfig": {
-                "fontSize": 20,
-                "color": "#ffffff",
-                "fontWeight": "bolder",
-                "position": {
-                  "left": 20,
-                  "top": 10
-                }
-              },
-              "content": "Curry is the best basketball player.",
-              "contentConfig": {
-                "color": "#efefef",
-                "fontSize": 14,
-                "position": {
-                  "left": 30,
-                  "top": 50
-                }
-              },
-              "imgUrl": "http://qq1munyah.hn-bkt.clouddn.com/kuli.jpg",
-              "objectFit": "fill"
-            },
-            "data": {}
-          }
-        ]
-      },
-      {
-        "layout": {
-          "height": 300
-        },
-        "modules": [
-          {
-            "type": "line",
-            "title": "Line Chart",
-            "layout": {
-              "width": 50
-            },
-            "options": {
-              "isSmooth": true,
-              "showArea": true,
-              "max": 100,
-              "unit": "%",
-              "symbol": "circle",
-              "symbolSize": 10,
-              "colorList": [],
-              "grid": {
-                "top": 30,
-                "bottom": 10,
-                "left": 30,
-                "right": 30
-              },
-              "xAxisLabel": {
-                "rotate": 0,
-                "textLength": 5,
-                "margin": 20,
-                "align": "center"
-              },
-              "showLegend": false,
-              "legendPosition": {
-                "left": "center",
-                "top": "bottom"
-              },
-              "legendOrient": "horizontal"
-            },
-            "data": {
-              "xAxis": [
-                "一月",
-                "二月",
-                "三月",
-                "四月",
-                "五月",
-                "六月"
-              ],
-              "series": [
-                {
-                  "name": "111",
-                  "data": [
-                    34,
-                    51,
-                    63,
-                    75,
-                    86,
-                    59
-                  ]
-                },
-                {
-                  "name": "222",
-                  "data": [
-                    71,
-                    35,
-                    41,
-                    53,
-                    67,
-                    71
-                  ]
-                }
-              ]
-            }
-          },
-          {
-            "type": "line",
-            "title": "Line Chart",
-            "layout": {
-              "width": 50
-            },
-            "options": {
-              "isSmooth": true,
-              "showArea": true,
-              "max": 100,
-              "unit": "%",
-              "symbol": "circle",
-              "symbolSize": 10,
-              "colorList": [],
-              "grid": {
-                "top": 30,
-                "bottom": 10,
-                "left": 30,
-                "right": 30
-              },
-              "xAxisLabel": {
-                "rotate": 0,
-                "textLength": 5,
-                "margin": 20,
-                "align": "center"
-              },
-              "showLegend": false,
-              "legendPosition": {
-                "left": "center",
-                "top": "bottom"
-              },
-              "legendOrient": "horizontal"
-            },
-            "data": {
-              "xAxis": [
-                "一月",
-                "二月",
-                "三月",
-                "四月",
-                "五月",
-                "六月"
-              ],
-              "series": [
-                {
-                  "name": "111",
-                  "data": [
-                    34,
-                    51,
-                    63,
-                    75,
-                    86,
-                    59
-                  ]
-                },
-                {
-                  "name": "222",
-                  "data": [
-                    71,
-                    35,
-                    41,
-                    53,
-                    67,
-                    71
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "layout": {
-          "height": 300
-        },
-        "modules": [
-          {
-            "type": "process",
-            "layout": {
-              "width": 25
-            },
-            "options": {
-              "showTitle": true,
-              "colorList": [
-                "#32cd32"
-              ]
-            },
-            "data": {
-              "series": [
-                {
-                  "value": 60,
-                  "total": 100,
-                  "desc": "分配率"
-                }
-              ]
-            }
-          },
-          {
-            "type": "process",
-            "layout": {
-              "width": 25
-            },
-            "options": {
-              "showTitle": true,
-              "colorList": [
-                "#32cd32"
-              ]
-            },
-            "data": {
-              "series": [
-                {
-                  "value": 60,
-                  "total": 100,
-                  "desc": "分配率"
-                }
-              ]
-            }
-          },
-          {
-            "type": "process",
-            "layout": {
-              "width": 25
-            },
-            "options": {
-              "showTitle": true,
-              "colorList": [
-                "#32cd32"
-              ]
-            },
-            "data": {
-              "series": [
-                {
-                  "value": 60,
-                  "total": 100,
-                  "desc": "分配率"
-                }
-              ]
-            }
-          },
-          {
-            "type": "process",
-            "layout": {
-              "width": 25
-            },
-            "options": {
-              "showTitle": true,
-              "colorList": [
-                "#32cd32"
-              ]
-            },
-            "data": {
-              "series": [
-                {
-                  "value": 60,
-                  "total": 100,
-                  "desc": "分配率"
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "layout": {
-          "height": 300
-        },
-        "modules": [
-          {
-            "type": "bar",
-            "col": 12,
-            "layout": {
-              "width": 50
-            },
-            "options": {
-              "classify": "normal",
-              "isVertical": false,
-              "max": 100,
-              "unit": "%",
-              "isBorderRadius": true,
-              "showBackground": true
-            },
-            "data": {
-              "xAxis": [
-                "1.12.12.1",
-                "1.12.12.2",
-                "1.12.12.12",
-                "1.12.12.112",
-                "1.12.12.88"
-              ],
-              "series": [
-                {
-                  "name": "CPU使用率",
-                  "data": [
-                    10,
-                    30,
-                    50,
-                    78,
-                    120
-                  ],
-                  "colors": [
-                    "yellow",
-                    "orange"
-                  ]
-                }
-              ]
-            }
-          },
-          {
-            "type": "bar",
-            "col": 12,
-            "layout": {
-              "width": 50
-            },
-            "options": {
-              "classify": "normal",
-              "isVertical": false,
-              "max": 100,
-              "unit": "%",
-              "isBorderRadius": true,
-              "showBackground": true
-            },
-            "data": {
-              "xAxis": [
-                "1.12.12.1",
-                "1.12.12.2",
-                "1.12.12.12",
-                "1.12.12.112",
-                "1.12.12.88"
-              ],
-              "series": [
-                {
-                  "name": "CPU使用率",
-                  "data": [
-                    10,
-                    30,
-                    50,
-                    78,
-                    120
-                  ],
-                  "colors": [
-                    "yellow",
-                    "orange"
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "layout": {
-          "height": 300
-        },
-        "modules": [
-          {
-            "type": "pie",
-            "layout": {
-              "width": 33.3333
-            },
-            "options": {
-              "legendPosition": {
-                "top": 10,
-                "left": 5
-              },
-              "showTotal": false
-            },
-            "data": {
-              "total": 122,
-              "series": [
-                {
-                  "name": "CWPP-病毒查杀",
-                  "value": 33
-                },
-                {
-                  "name": "vDB-数据库安全威胁",
-                  "value": 23
-                },
-                {
-                  "name": "vNGFW-病毒威胁",
-                  "value": 20
-                },
-                {
-                  "name": "vVulnScan-网络漏洞扫描",
-                  "value": 15
-                },
-                {
-                  "name": "vNGFW-Flood攻击",
-                  "value": 10
-                }
-              ]
-            }
-          },
-          {
-            "type": "pie",
-            "layout": {
-              "width": 33.3333
-            },
-            "options": {
-              "legendPosition": {
-                "top": 10,
-                "left": 5
-              },
-              "showTotal": false
-            },
-            "data": {
-              "total": 122,
-              "series": [
-                {
-                  "name": "CWPP-病毒查杀",
-                  "value": 33
-                },
-                {
-                  "name": "vDB-数据库安全威胁",
-                  "value": 23
-                },
-                {
-                  "name": "vNGFW-病毒威胁",
-                  "value": 20
-                },
-                {
-                  "name": "vVulnScan-网络漏洞扫描",
-                  "value": 15
-                },
-                {
-                  "name": "vNGFW-Flood攻击",
-                  "value": 10
-                }
-              ]
-            }
-          },
-          {
-            "type": "pie",
-            "layout": {
-              "width": 33.3333
-            },
-            "options": {
-              "legendPosition": {
-                "top": 10,
-                "left": 5
-              },
-              "showTotal": false
-            },
-            "data": {
-              "total": 122,
-              "series": [
-                {
-                  "name": "CWPP-病毒查杀",
-                  "value": 33
-                },
-                {
-                  "name": "vDB-数据库安全威胁",
-                  "value": 23
-                },
-                {
-                  "name": "vNGFW-病毒威胁",
-                  "value": 20
-                },
-                {
-                  "name": "vVulnScan-网络漏洞扫描",
-                  "value": 15
-                },
-                {
-                  "name": "vNGFW-Flood攻击",
-                  "value": 10
-                }
-              ]
-            }
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": 7,
-    "config": [
-      {
-        "layout": {
-          "height": 506
-        },
-        "modules": [
-          {
-            "type": "banner",
-            "title": "Banner",
-            "layout": {
-              "width": 50
-            },
-            "options": {
-              "title": "Mamba out.",
-              "titleConfig": {
-                "fontSize": 20,
-                "color": "#ffffff",
-                "fontWeight": "bolder",
-                "position": {
-                  "left": 20,
-                  "top": 10
-                }
-              },
-              "content": "Kobe is the best basketball player.",
-              "contentConfig": {
-                "color": "#efefef",
-                "fontSize": 14,
-                "position": {
-                  "left": 30,
-                  "top": 50
-                }
-              },
-              "imgUrl": "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2552568315,2503293885&fm=26&gp=0.jpg",
-              "objectFit": "fill"
-            },
-            "data": {}
-          },
-          {
-            "type": "line",
-            "title": "Line Chart",
-            "layout": {
-              "width": 50
-            },
-            "options": {
-              "isSmooth": true,
-              "showArea": true,
-              "max": 100,
-              "unit": "%",
-              "symbol": "circle",
-              "symbolSize": 10,
-              "colorList": [],
-              "grid": {
-                "top": 30,
-                "bottom": 10,
-                "left": 30,
-                "right": 30
-              },
-              "xAxisLabel": {
-                "rotate": 0,
-                "textLength": 5,
-                "margin": 20,
-                "align": "center"
-              },
-              "showLegend": false,
-              "legendPosition": {
-                "left": "center",
-                "top": "bottom"
-              },
-              "legendOrient": "horizontal"
-            },
-            "data": {
-              "xAxis": [
-                "一月",
-                "二月",
-                "三月",
-                "四月",
-                "五月",
-                "六月"
-              ],
-              "series": [
-                {
-                  "name": "111",
-                  "data": [
-                    34,
-                    51,
-                    63,
-                    75,
-                    86,
-                    59
-                  ]
-                },
-                {
-                  "name": "222",
-                  "data": [
-                    71,
-                    35,
-                    41,
-                    53,
-                    67,
-                    71
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "layout": {
-          "height": 300
-        },
-        "modules": [
-          {
-            "type": "process",
-            "layout": {
-              "width": 33.3333
-            },
-            "options": {
-              "showTitle": true,
-              "colorList": [
-                "#32cd32"
-              ]
-            },
-            "data": {
-              "series": [
-                {
-                  "value": 60,
-                  "total": 100,
-                  "desc": "分配率"
-                }
-              ]
-            }
-          },
-          {
-            "type": "process",
-            "layout": {
-              "width": 33.3333
-            },
-            "options": {
-              "showTitle": true,
-              "colorList": [
-                "#32cd32"
-              ]
-            },
-            "data": {
-              "series": [
-                {
-                  "value": 60,
-                  "total": 100,
-                  "desc": "分配率"
-                }
-              ]
-            }
-          },
-          {
-            "type": "process",
-            "layout": {
-              "width": 33.3333
-            },
-            "options": {
-              "showTitle": true,
-              "colorList": [
-                "#32cd32"
-              ]
-            },
-            "data": {
-              "series": [
-                {
-                  "value": 60,
-                  "total": 100,
-                  "desc": "分配率"
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "layout": {
-          "height": 425
-        },
-        "modules": [
-          {
-            "type": "pie",
-            "layout": {
-              "width": 50
-            },
-            "options": {
-              "legendPosition": {
-                "top": 10,
-                "left": 5
-              },
-              "showTotal": false
-            },
-            "data": {
-              "total": 122,
-              "series": [
-                {
-                  "name": "CWPP-病毒查杀",
-                  "value": 33
-                },
-                {
-                  "name": "vDB-数据库安全威胁",
-                  "value": 23
-                },
-                {
-                  "name": "vNGFW-病毒威胁",
-                  "value": 20
-                },
-                {
-                  "name": "vVulnScan-网络漏洞扫描",
-                  "value": 15
-                },
-                {
-                  "name": "vNGFW-Flood攻击",
-                  "value": 10
-                }
-              ]
-            }
-          },
-          {
-            "type": "bar",
-            "col": 12,
-            "layout": {
-              "width": 50
-            },
-            "options": {
-              "classify": "normal",
-              "isVertical": false,
-              "max": 100,
-              "unit": "%",
-              "isBorderRadius": true,
-              "showBackground": true
-            },
-            "data": {
-              "xAxis": [
-                "1.12.12.1",
-                "1.12.12.2",
-                "1.12.12.12",
-                "1.12.12.112",
-                "1.12.12.88"
-              ],
-              "series": [
-                {
-                  "name": "CPU使用率",
-                  "data": [
-                    10,
-                    30,
-                    50,
-                    78,
-                    120
-                  ],
-                  "colors": [
-                    "yellow",
-                    "orange"
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "layout": {
-          "height": 568
-        },
-        "modules": [
-          {
-            "type": "earth",
-            "layout": {
-              "width": 100
-            },
-            "options": {},
-            "data": {}
-          }
-        ]
-      },
-      {
-        "layout": {
-          "height": 591
-        },
-        "modules": [
-          {
-            "type": "threeStars",
-            "layout": {
-              "width": 100
-            },
-            "options": {},
-            "data": {}
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": 8,
-    "config": [
-      {
-        "layout": {
-          "height": 745
-        },
-        "modules": [
-          {
-            "type": "banner",
-            "title": "Banner",
-            "layout": {
-              "width": 100
-            },
-            "options": {
-              "title": "Curry.",
-              "titleConfig": {
-                "fontSize": 20,
-                "color": "#ffffff",
-                "fontWeight": "bolder",
-                "position": {
-                  "left": 20,
-                  "top": 10
-                }
-              },
-              "content": "Kobe11 is the best basketball player.",
-              "contentConfig": {
-                "color": "#efefef",
-                "fontSize": 14,
-                "position": {
-                  "left": 30,
-                  "top": 50
-                }
-              },
-              "imgUrl": "http://qq1munyah.hn-bkt.clouddn.com/kuli.jpg",
-              "objectFit": "fill"
-            },
-            "data": {}
-          }
-        ]
-      },
-      {
-        "layout": {
-          "height": 300
-        },
-        "modules": [
-          {
-            "type": "line",
-            "title": "Line Chart",
-            "layout": {
-              "width": 50
-            },
-            "options": {
-              "isSmooth": true,
-              "showArea": true,
-              "max": 100,
-              "unit": "%",
-              "symbol": "circle",
-              "symbolSize": 10,
-              "colorList": [],
-              "grid": {
-                "top": 30,
-                "bottom": 10,
-                "left": 30,
-                "right": 30
-              },
-              "xAxisLabel": {
-                "rotate": 0,
-                "textLength": 5,
-                "margin": 20,
-                "align": "center"
-              },
-              "showLegend": false,
-              "legendPosition": {
-                "left": "center",
-                "top": "bottom"
-              },
-              "legendOrient": "horizontal"
-            },
-            "data": {
-              "xAxis": [
-                "一月",
-                "二月",
-                "三月",
-                "四月",
-                "五月",
-                "六月"
-              ],
-              "series": [
-                {
-                  "name": "111",
-                  "data": [
-                    34,
-                    51,
-                    63,
-                    75,
-                    86,
-                    59
-                  ]
-                },
-                {
-                  "name": "222",
-                  "data": [
-                    71,
-                    35,
-                    41,
-                    53,
-                    67,
-                    71
-                  ]
-                }
-              ]
-            }
-          },
-          {
-            "type": "process",
-            "layout": {
-              "width": 50
-            },
-            "options": {
-              "showTitle": true,
-              "colorList": [
-                "#32cd32"
-              ]
-            },
-            "data": {
-              "series": [
-                {
-                  "value": 60,
-                  "total": 100,
-                  "desc": "分配率"
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "layout": {
-          "height": 300
-        },
-        "modules": [
-          {
-            "type": "bar",
-            "col": 12,
-            "layout": {
-              "width": 50
-            },
-            "options": {
-              "classify": "normal",
-              "isVertical": false,
-              "max": 100,
-              "unit": "%",
-              "isBorderRadius": true,
-              "showBackground": true
-            },
-            "data": {
-              "xAxis": [
-                "1.12.12.1",
-                "1.12.12.2",
-                "1.12.12.12",
-                "1.12.12.112",
-                "1.12.12.88"
-              ],
-              "series": [
-                {
-                  "name": "CPU使用率",
-                  "data": [
-                    10,
-                    30,
-                    50,
-                    78,
-                    120
-                  ],
-                  "colors": [
-                    "yellow",
-                    "orange"
-                  ]
-                }
-              ]
-            }
-          },
-          {
-            "type": "bar",
-            "col": 12,
-            "layout": {
-              "width": 50
-            },
-            "options": {
-              "classify": "normal",
-              "isVertical": false,
-              "max": 100,
-              "unit": "%",
-              "isBorderRadius": true,
-              "showBackground": true
-            },
-            "data": {
-              "xAxis": [
-                "1.12.12.1",
-                "1.12.12.2",
-                "1.12.12.12",
-                "1.12.12.112",
-                "1.12.12.88"
-              ],
-              "series": [
-                {
-                  "name": "CPU使用率",
-                  "data": [
-                    10,
-                    30,
-                    50,
-                    78,
-                    120
-                  ],
-                  "colors": [
-                    "yellow",
-                    "orange"
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "layout": {
-          "height": 300
-        },
-        "modules": [
-          {
-            "type": "pie",
-            "layout": {
-              "width": 33.3333
-            },
-            "options": {
-              "legendPosition": {
-                "top": 10,
-                "left": 5
-              },
-              "showTotal": false
-            },
-            "data": {
-              "total": 122,
-              "series": [
-                {
-                  "name": "CWPP-病毒查杀",
-                  "value": 33
-                },
-                {
-                  "name": "vDB-数据库安全威胁",
-                  "value": 23
-                },
-                {
-                  "name": "vNGFW-病毒威胁",
-                  "value": 20
-                },
-                {
-                  "name": "vVulnScan-网络漏洞扫描",
-                  "value": 15
-                },
-                {
-                  "name": "vNGFW-Flood攻击",
-                  "value": 10
-                }
-              ]
-            }
-          },
-          {
-            "type": "pie",
-            "layout": {
-              "width": 33.3333
-            },
-            "options": {
-              "legendPosition": {
-                "top": 10,
-                "left": 5
-              },
-              "showTotal": false
-            },
-            "data": {
-              "total": 122,
-              "series": [
-                {
-                  "name": "CWPP-病毒查杀",
-                  "value": 33
-                },
-                {
-                  "name": "vDB-数据库安全威胁",
-                  "value": 23
-                },
-                {
-                  "name": "vNGFW-病毒威胁",
-                  "value": 20
-                },
-                {
-                  "name": "vVulnScan-网络漏洞扫描",
-                  "value": 15
-                },
-                {
-                  "name": "vNGFW-Flood攻击",
-                  "value": 10
-                }
-              ]
-            }
-          },
-          {
-            "type": "pie",
-            "layout": {
-              "width": 33.3333
-            },
-            "options": {
-              "legendPosition": {
-                "top": 10,
-                "left": 5
-              },
-              "showTotal": false
-            },
-            "data": {
-              "total": 122,
-              "series": [
-                {
-                  "name": "CWPP-病毒查杀",
-                  "value": 33
-                },
-                {
-                  "name": "vDB-数据库安全威胁",
-                  "value": 23
-                },
-                {
-                  "name": "vNGFW-病毒威胁",
-                  "value": 20
-                },
-                {
-                  "name": "vVulnScan-网络漏洞扫描",
-                  "value": 15
-                },
-                {
-                  "name": "vNGFW-Flood攻击",
-                  "value": 10
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "layout": {
-          "height": 583
-        },
-        "modules": [
-          {
-            "type": "earth",
-            "layout": {
-              "width": 100
-            },
-            "options": {},
-            "data": {}
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": 9,
-    "config": [
-      {
-        "layout": {
-          "height": 300
-        },
-        "modules": [
-          {
-            "type": "banner",
-            "title": "Banner",
-            "layout": {
-              "width": 100
-            },
-            "options": {
-              "title": "Mamba out.",
-              "titleConfig": {
-                "fontSize": 20,
-                "color": "#ffffff",
-                "fontWeight": "bolder",
-                "position": {
-                  "left": 20,
-                  "top": 10
-                }
-              },
-              "content": "Kobe is the best basketball player.",
-              "contentConfig": {
-                "color": "#efefef",
-                "fontSize": 14,
-                "position": {
-                  "left": 30,
-                  "top": 50
-                }
-              },
-              "imgUrl": "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2552568315,2503293885&fm=26&gp=0.jpg",
-              "objectFit": "fill"
-            },
-            "data": {}
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": 10,
-    "config": [
-      {
-        "layout": {
-          "height": 491
-        },
-        "modules": [
-          {
-            "type": "earth",
-            "layout": {
-              "width": 100
-            },
-            "options": {},
-            "data": {}
-          }
-        ]
-      },
-      {
-        "layout": {
-          "height": 656
-        },
-        "modules": [
-          {
-            "type": "banner",
-            "title": "Banner",
-            "layout": {
-              "width": 100
-            },
-            "options": {
-              "title": "Curry NiuBi",
-              "titleConfig": {
-                "fontSize": 20,
-                "color": "#ffffff",
-                "fontWeight": "bolder",
-                "position": {
-                  "left": 20,
-                  "top": 10
-                }
-              },
-              "content": "Curry is the best basketball player.",
-              "contentConfig": {
-                "color": "#efefef",
-                "fontSize": 14,
-                "position": {
-                  "left": 30,
-                  "top": 50
-                }
-              },
-              "imgUrl": "http://qq1munyah.hn-bkt.clouddn.com/kuli.jpg",
-              "objectFit": "fill"
-            },
-            "data": {}
-          }
-        ]
-      },
-      {
-        "layout": {
-          "height": 300
-        },
-        "modules": [
-          {
-            "type": "line",
-            "title": "Line Chart",
-            "layout": {
-              "width": 70.4605
-            },
-            "options": {
-              "isSmooth": true,
-              "showArea": true,
-              "max": 100,
-              "unit": "%",
-              "symbol": "circle",
-              "symbolSize": 10,
-              "colorList": [],
-              "grid": {
-                "top": 30,
-                "bottom": 10,
-                "left": 30,
-                "right": 30
-              },
-              "xAxisLabel": {
-                "rotate": 0,
-                "textLength": 5,
-                "margin": 20,
-                "align": "center"
-              },
-              "showLegend": false,
-              "legendPosition": {
-                "left": "center",
-                "top": "bottom"
-              },
-              "legendOrient": "horizontal"
-            },
-            "data": {
-              "xAxis": [
-                "一月",
-                "二月",
-                "三月",
-                "四月",
-                "五月",
-                "六月"
-              ],
-              "series": [
-                {
-                  "name": "111",
-                  "data": [
-                    34,
-                    51,
-                    63,
-                    75,
-                    86,
-                    59
-                  ]
-                },
-                {
-                  "name": "222",
-                  "data": [
-                    71,
-                    35,
-                    41,
-                    53,
-                    67,
-                    71
-                  ]
-                }
-              ]
-            }
-          },
-          {
-            "type": "line",
-            "title": "Line Chart",
-            "layout": {
-              "width": 29.5394
-            },
-            "options": {
-              "isSmooth": true,
-              "showArea": true,
-              "max": 100,
-              "unit": "%",
-              "symbol": "circle",
-              "symbolSize": 10,
-              "colorList": [],
-              "grid": {
-                "top": 30,
-                "bottom": 10,
-                "left": 30,
-                "right": 30
-              },
-              "xAxisLabel": {
-                "rotate": 0,
-                "textLength": 5,
-                "margin": 20,
-                "align": "center"
-              },
-              "showLegend": false,
-              "legendPosition": {
-                "left": "center",
-                "top": "bottom"
-              },
-              "legendOrient": "horizontal"
-            },
-            "data": {
-              "xAxis": [
-                "一月",
-                "二月",
-                "三月",
-                "四月",
-                "五月",
-                "六月"
-              ],
-              "series": [
-                {
-                  "name": "111",
-                  "data": [
-                    34,
-                    51,
-                    63,
-                    75,
-                    86,
-                    59
-                  ]
-                },
-                {
-                  "name": "222",
-                  "data": [
-                    71,
-                    35,
-                    41,
-                    53,
-                    67,
-                    71
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "layout": {
-          "height": 300
-        },
-        "modules": [
-          {
-            "type": "process",
-            "layout": {
-              "width": 25
-            },
-            "options": {
-              "showTitle": true,
-              "colorList": [
-                "#32cd32"
-              ]
-            },
-            "data": {
-              "series": [
-                {
-                  "value": 60,
-                  "total": 100,
-                  "desc": "分配率"
-                }
-              ]
-            }
-          },
-          {
-            "type": "process",
-            "layout": {
-              "width": 25
-            },
-            "options": {
-              "showTitle": true,
-              "colorList": [
-                "#32cd32"
-              ]
-            },
-            "data": {
-              "series": [
-                {
-                  "value": 60,
-                  "total": 100,
-                  "desc": "分配率"
-                }
-              ]
-            }
-          },
-          {
-            "type": "process",
-            "layout": {
-              "width": 25
-            },
-            "options": {
-              "showTitle": true,
-              "colorList": [
-                "#32cd32"
-              ]
-            },
-            "data": {
-              "series": [
-                {
-                  "value": 60,
-                  "total": 100,
-                  "desc": "分配率"
-                }
-              ]
-            }
-          },
-          {
-            "type": "process",
-            "layout": {
-              "width": 25
-            },
-            "options": {
-              "showTitle": true,
-              "colorList": [
-                "#32cd32"
-              ]
-            },
-            "data": {
-              "series": [
-                {
-                  "value": 60,
-                  "total": 100,
-                  "desc": "分配率"
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "layout": {
-          "height": 300
-        },
-        "modules": [
-          {
-            "type": "bar",
-            "col": 12,
-            "layout": {
-              "width": 25.0438
-            },
-            "options": {
-              "classify": "normal",
-              "isVertical": false,
-              "max": 100,
-              "unit": "%",
-              "isBorderRadius": true,
-              "showBackground": true
-            },
-            "data": {
-              "xAxis": [
-                "1.12.12.1",
-                "1.12.12.2",
-                "1.12.12.12",
-                "1.12.12.112",
-                "1.12.12.88"
-              ],
-              "series": [
-                {
-                  "name": "CPU使用率",
-                  "data": [
-                    10,
-                    30,
-                    50,
-                    78,
-                    120
-                  ],
-                  "colors": [
-                    "yellow",
-                    "orange"
-                  ]
-                }
-              ]
-            }
-          },
-          {
-            "type": "banner",
-            "title": "Banner",
-            "layout": {
-              "width": 49.7148
-            },
-            "options": {
-              "title": "Mamba out.",
-              "titleConfig": {
-                "fontSize": 20,
-                "color": "#ffffff",
-                "fontWeight": "bolder",
-                "position": {
-                  "left": 20,
-                  "top": 10
-                }
-              },
-              "content": "Kobe is the best basketball player.",
-              "contentConfig": {
-                "color": "#efefef",
-                "fontSize": 14,
-                "position": {
-                  "left": 30,
-                  "top": 50
-                }
-              },
-              "imgUrl": "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2552568315,2503293885&fm=26&gp=0.jpg",
-              "objectFit": "fill"
-            },
-            "data": {}
-          },
-          {
-            "type": "bar",
-            "col": 12,
-            "layout": {
-              "width": 25.2411
-            },
-            "options": {
-              "classify": "normal",
-              "isVertical": false,
-              "max": 100,
-              "unit": "%",
-              "isBorderRadius": true,
-              "showBackground": true
-            },
-            "data": {
-              "xAxis": [
-                "1.12.12.1",
-                "1.12.12.2",
-                "1.12.12.12",
-                "1.12.12.112",
-                "1.12.12.88"
-              ],
-              "series": [
-                {
-                  "name": "CPU使用率",
-                  "data": [
-                    10,
-                    30,
-                    50,
-                    78,
-                    120
-                  ],
-                  "colors": [
-                    "yellow",
-                    "orange"
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "layout": {
-          "height": 300
-        },
-        "modules": [
-          {
-            "type": "pie",
-            "layout": {
-              "width": 100
-            },
-            "options": {
-              "legendPosition": {
-                "top": 10,
-                "left": 5
-              },
-              "showTotal": false
-            },
-            "data": {
-              "total": 122,
-              "series": [
-                {
-                  "name": "CWPP-病毒查杀",
-                  "value": 33
-                },
-                {
-                  "name": "vDB-数据库安全威胁",
-                  "value": 23
-                },
-                {
-                  "name": "vNGFW-病毒威胁",
-                  "value": 20
-                },
-                {
-                  "name": "vVulnScan-网络漏洞扫描",
-                  "value": 15
-                },
-                {
-                  "name": "vNGFW-Flood攻击",
-                  "value": 10
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "layout": {
-          "height": 300
-        },
-        "modules": [
-          {
-            "type": "pie",
-            "layout": {
-              "width": 100
-            },
-            "options": {
-              "legendPosition": {
-                "top": 10,
-                "left": 5
-              },
-              "showTotal": false
-            },
-            "data": {
-              "total": 122,
-              "series": [
-                {
-                  "name": "CWPP-病毒查杀",
-                  "value": 33
-                },
-                {
-                  "name": "vDB-数据库安全威胁",
-                  "value": 23
-                },
-                {
-                  "name": "vNGFW-病毒威胁",
-                  "value": 20
-                },
-                {
-                  "name": "vVulnScan-网络漏洞扫描",
-                  "value": 15
-                },
-                {
-                  "name": "vNGFW-Flood攻击",
-                  "value": 10
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "layout": {
-          "height": 300
-        },
-        "modules": [
-          {
-            "type": "pie",
-            "layout": {
-              "width": 50
-            },
-            "options": {
-              "legendPosition": {
-                "top": 10,
-                "left": 5
-              },
-              "showTotal": false
-            },
-            "data": {
-              "total": 122,
-              "series": [
-                {
-                  "name": "CWPP-病毒查杀",
-                  "value": 33
-                },
-                {
-                  "name": "vDB-数据库安全威胁",
-                  "value": 23
-                },
-                {
-                  "name": "vNGFW-病毒威胁",
-                  "value": 20
-                },
-                {
-                  "name": "vVulnScan-网络漏洞扫描",
-                  "value": 15
-                },
-                {
-                  "name": "vNGFW-Flood攻击",
-                  "value": 10
-                }
-              ]
-            }
-          },
-          {
-            "type": "pie",
-            "layout": {
-              "width": 50
-            },
-            "options": {
-              "legendPosition": {
-                "top": 10,
-                "left": 5
-              },
-              "showTotal": false
-            },
-            "data": {
-              "total": 122,
-              "series": [
-                {
-                  "name": "CWPP-病毒查杀",
-                  "value": 33
-                },
-                {
-                  "name": "vDB-数据库安全威胁",
-                  "value": 23
-                },
-                {
-                  "name": "vNGFW-病毒威胁",
-                  "value": 20
-                },
-                {
-                  "name": "vVulnScan-网络漏洞扫描",
-                  "value": 15
-                },
-                {
-                  "name": "vNGFW-Flood攻击",
-                  "value": 10
-                }
-              ]
-            }
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": 11,
-    "config": [
-      {
-        "layout": {
-          "height": 647
-        },
-        "modules": [
-          {
-            "type": "banner",
-            "title": "Banner",
-            "layout": {
-              "width": 100
-            },
-            "options": {
-              "title": "Mamba out1.",
-              "titleConfig": {
-                "fontSize": 20,
-                "color": "#ffffff",
-                "fontWeight": "bolder",
-                "position": {
-                  "left": 20,
-                  "top": 10
-                }
-              },
-              "content": "Kobe is the best basketball player1.",
-              "contentConfig": {
-                "color": "#efefef",
-                "fontSize": 14,
-                "position": {
-                  "left": 30,
-                  "top": 50
-                }
-              },
-              "imgUrl": "http://qq1munyah.hn-bkt.clouddn.com/kuli.jpg",
-              "objectFit": "fill"
-            },
-            "data": {}
-          }
-        ]
-      },
-      {
-        "layout": {
-          "height": 337
-        },
-        "modules": [
-          {
-            "type": "process",
-            "layout": {
-              "width": 50
-            },
-            "options": {
-              "showTitle": true,
-              "colorList": [
-                "#32cd32"
-              ]
-            },
-            "data": {
-              "series": [
-                {
-                  "value": 60,
-                  "total": 100,
-                  "desc": "分配率"
-                }
-              ]
-            }
-          },
-          {
-            "type": "line",
-            "title": "Line Chart",
-            "layout": {
-              "width": 50
-            },
-            "options": {
-              "isSmooth": true,
-              "showArea": true,
-              "max": 100,
-              "unit": "%",
-              "symbol": "circle",
-              "symbolSize": 10,
-              "colorList": [],
-              "grid": {
-                "top": 30,
-                "bottom": 10,
-                "left": 30,
-                "right": 30
-              },
-              "xAxisLabel": {
-                "rotate": 0,
-                "textLength": 5,
-                "margin": 20,
-                "align": "center"
-              },
-              "showLegend": false,
-              "legendPosition": {
-                "left": "center",
-                "top": "bottom"
-              },
-              "legendOrient": "horizontal"
-            },
-            "data": {
-              "xAxis": [
-                "一月",
-                "二月",
-                "三月",
-                "四月",
-                "五月",
-                "六月"
-              ],
-              "series": [
-                {
-                  "name": "111",
-                  "data": [
-                    34,
-                    51,
-                    63,
-                    75,
-                    86,
-                    59
-                  ]
-                },
-                {
-                  "name": "222",
-                  "data": [
-                    71,
-                    35,
-                    41,
-                    53,
-                    67,
-                    71
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "layout": {
-          "height": 300
-        },
-        "modules": [
-          {
-            "type": "bar",
-            "col": 12,
-            "layout": {
-              "width": 33.3333
-            },
-            "options": {
-              "classify": "stack",
-              "isVertical": false,
-              "max": 100,
-              "unit": "%",
-              "isBorderRadius": true,
-              "showBackground": true
-            },
-            "data": {
-              "xAxis": [
-                "1.12.12.1",
-                "1.12.12.2",
-                "1.12.12.12",
-                "1.12.12.112",
-                "1.12.12.88"
-              ],
-              "series": [
-                {
-                  "name": "CPU使用率",
-                  "data": [
-                    10,
-                    30,
-                    50,
-                    78,
-                    120
-                  ],
-                  "colors": [
-                    "yellow",
-                    "orange"
-                  ]
-                }
-              ]
-            }
-          },
-          {
-            "type": "earth",
-            "layout": {
-              "width": 33.3333
-            },
-            "options": {},
-            "data": {}
-          },
-          {
-            "type": "pie",
-            "layout": {
-              "width": 33.3333
-            },
-            "options": {
-              "legendPosition": {
-                "top": 10,
-                "left": 5
-              },
-              "showTotal": false
-            },
-            "data": {
-              "total": 122,
-              "series": [
-                {
-                  "name": "CWPP-病毒查杀",
-                  "value": 33
-                },
-                {
-                  "name": "vDB-数据库安全威胁",
-                  "value": 23
-                },
-                {
-                  "name": "vNGFW-病毒威胁",
-                  "value": 20
-                },
-                {
-                  "name": "vVulnScan-网络漏洞扫描",
-                  "value": 15
-                },
-                {
-                  "name": "vNGFW-Flood攻击",
-                  "value": 10
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "layout": {
-          "height": 485
-        },
-        "modules": [
-          {
-            "type": "threeStars",
-            "layout": {
-              "width": 100
-            },
-            "options": {},
-            "data": {}
-          }
-        ]
-      }
-    ]
-  },
-  {
     "id": 12,
-    "config": [
-      {
-        "layout": {
-          "height": 300
-        },
-        "modules": [
-          {
-            "type": "bar",
-            "col": 12,
-            "layout": {
-              "width": 50
-            },
-            "options": {
-              "classify": "normal",
-              "isVertical": false,
-              "max": 100,
-              "unit": "%",
-              "isBorderRadius": true,
-              "showBackground": true,
-              "showLegend": true
-            },
-            "data": {
-              "xAxis": [
-                "1.12.12.1",
-                "1.12.12.2",
-                "1.12.12.12",
-                "1.12.12.112",
-                "1.12.12.88"
-              ],
-              "series": [
-                {
-                  "name": "CPU使用率",
-                  "data": [
-                    10,
-                    30,
-                    50,
-                    78,
-                    120
-                  ],
-                  "colors": [
-                    "yellow",
-                    "orange"
-                  ]
-                }
-              ]
-            }
+    "config": {
+      "type": "flow",
+      "layout": {},
+      "data": [
+        {
+          "layout": {
+            "height": 300
           },
-          {
-            "type": "line",
-            "title": "Line Chart",
-            "layout": {
-              "width": 50
+          "modules": [
+            {
+              "type": "bar",
+              "col": 12,
+              "layout": {
+                "width": 50
+              },
+              "options": {
+                "classify": "normal",
+                "isVertical": false,
+                "max": 100,
+                "unit": "%",
+                "isBorderRadius": true,
+                "showBackground": true,
+                "showLegend": true
+              },
+              "data": {
+                "xAxis": [
+                  "1.12.12.1",
+                  "1.12.12.2",
+                  "1.12.12.12",
+                  "1.12.12.112",
+                  "1.12.12.88"
+                ],
+                "series": [
+                  {
+                    "name": "CPU使用率",
+                    "data": [
+                      10,
+                      30,
+                      50,
+                      78,
+                      120
+                    ],
+                    "colors": [
+                      "yellow",
+                      "orange"
+                    ]
+                  }
+                ]
+              },
+              "rowIndex": 0,
+              "moduleIndex": 0
             },
-            "options": {
-              "isSmooth": false,
-              "showArea": false,
-              "max": 100,
-              "unit": "%",
-              "symbol": "triangle",
-              "symbolSize": 14,
-              "colorList": [],
-              "grid": {
-                "top": 30,
-                "bottom": 10,
-                "left": 30,
-                "right": 30
+            {
+              "type": "line",
+              "title": "Line Chart",
+              "layout": {
+                "width": 50
               },
-              "xAxisLabel": {
-                "rotate": 0,
-                "textLength": 5,
-                "margin": 20,
-                "align": "center"
-              },
-              "showLegend": true,
-              "legendPosition": {
-                "left": "center",
-                "top": "bottom"
-              },
-              "legendOrient": "horizontal",
-              "title": "LineChart1231321",
-              "apiEnable": true,
-              "remote": {
-                "url": "http://localhost:9999/module-line",
-                "resolveFn": "function resolve(data) {\n  return data;\n}"
-              }
-            },
-            "data": {
-              "xAxis": [
-                "一月",
-                "二月",
-                "三月",
-                "四月",
-                "五月",
-                "六月"
-              ],
-              "series": [
-                {
-                  "name": "111",
-                  "data": [
-                    34,
-                    51,
-                    63,
-                    75,
-                    86,
-                    59
-                  ]
+              "options": {
+                "isSmooth": false,
+                "showArea": false,
+                "max": 100,
+                "unit": "%",
+                "symbol": "triangle",
+                "symbolSize": 14,
+                "colorList": [],
+                "grid": {
+                  "top": 30,
+                  "bottom": 10,
+                  "left": 30,
+                  "right": 30
                 },
-                {
-                  "name": "222",
-                  "data": [
-                    71,
-                    35,
-                    41,
-                    53,
-                    67,
-                    71
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "layout": {
-          "height": 491
-        },
-        "modules": [
-          {
-            "type": "line",
-            "title": "Line Chart",
-            "layout": {
-              "width": 100
-            },
-            "options": {
-              "isSmooth": true,
-              "showArea": true,
-              "max": 120,
-              "unit": "%",
-              "symbol": "circle",
-              "symbolSize": 10,
-              "colorList": [],
-              "grid": {
-                "top": 30,
-                "bottom": 10,
-                "left": 30,
-                "right": 30
-              },
-              "xAxisLabel": {
-                "rotate": 0,
-                "textLength": 5,
-                "margin": 20,
-                "align": "center"
-              },
-              "showLegend": true,
-              "legendPosition": {
-                "left": "center",
-                "top": "bottom"
-              },
-              "legendOrient": "horizontal",
-              "apiEnable": true,
-              "remote": {
-                "url": "http://localhost:9999/module-line-data",
-                "resolveFn": "function resolve(data) {\n  let x = data.series[0].xAxis\n  data.xAxis = x\n  return data;\n}"
-              },
-              "title": "resolveFunction3232"
-            },
-            "data": {
-              "xAxis": [
-                "一月",
-                "二月",
-                "三月",
-                "四月",
-                "五月",
-                "六月"
-              ],
-              "series": [
-                {
-                  "name": "111",
-                  "data": [
-                    34,
-                    51,
-                    63,
-                    75,
-                    86,
-                    59
-                  ]
+                "xAxisLabel": {
+                  "rotate": 0,
+                  "textLength": 5,
+                  "margin": 20,
+                  "align": "center"
                 },
-                {
-                  "name": "222",
-                  "data": [
-                    71,
-                    35,
-                    41,
-                    53,
-                    67,
-                    71
-                  ]
+                "showLegend": true,
+                "legendPosition": {
+                  "left": "center",
+                  "top": "bottom"
+                },
+                "legendOrient": "horizontal",
+                "title": "LineChart1231321",
+                "apiEnable": true,
+                "remote": {
+                  "url": "http://localhost:9999/module-line",
+                  "resolveFn": "function resolve(data) {n  return data;n}"
                 }
-              ]
+              },
+              "data": {
+                "xAxis": [
+                  "一月",
+                  "二月",
+                  "三月",
+                  "四月",
+                  "五月",
+                  "六月"
+                ],
+                "series": [
+                  {
+                    "name": "111",
+                    "data": [
+                      34,
+                      51,
+                      63,
+                      75,
+                      86,
+                      59
+                    ]
+                  },
+                  {
+                    "name": "222",
+                    "data": [
+                      71,
+                      35,
+                      41,
+                      53,
+                      67,
+                      71
+                    ]
+                  }
+                ]
+              },
+              "rowIndex": 0,
+              "moduleIndex": 1
             }
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": 13,
-    "config": [
-      {
-        "layout": {
-          "height": 466
+          ]
         },
-        "modules": [
-          {
-            "type": "richText",
-            "title": "Rich Text",
-            "layout": {
-              "width": 50
-            },
-            "options": {
-              "html": "<h1 style=\"text-align:center;\" size=\"0\" _root=\"undefined\" __ownerid=\"undefined\" __hash=\"undefined\" __altered=\"false\"><span style=\"color:#fdda00\">hello world</span></h1><p style=\"text-align:center;\"><span style=\"font-size:30px\"><span style=\"color:#003ba5\">白日依山尽，黄河入海流。欲穷千里目，更上一层楼。</span></span></p><div class=\"media-wrap image-wrap align-center\" style=\"text-align:center\"><img src=\"http://qq1munyah.hn-bkt.clouddn.com/kuli.jpg\" width=\"500px\" style=\"width:500px\"/></div><p></p>"
-            },
-            "data": {}
+        {
+          "layout": {
+            "height": 491
           },
-          {
-            "type": "line",
-            "title": "Line Chart",
-            "layout": {
-              "width": 50
-            },
-            "options": {
-              "isSmooth": true,
-              "showArea": true,
-              "max": 100,
-              "unit": "%",
-              "symbol": "circle",
-              "symbolSize": 10,
-              "colorList": [],
-              "grid": {
-                "top": 30,
-                "bottom": 10,
-                "left": 30,
-                "right": 30
+          "modules": [
+            {
+              "type": "line",
+              "title": "Line Chart",
+              "layout": {
+                "width": 100
               },
-              "xAxisLabel": {
-                "rotate": 0,
-                "textLength": 5,
-                "margin": 20,
-                "align": "center"
-              },
-              "showLegend": true,
-              "legendPosition": {
-                "left": "center",
-                "top": "bottom"
-              },
-              "legendOrient": "horizontal",
-              "apiEnable": true,
-              "remote": {
-                "url": "http://localhost:9999/module-line-data",
-                "resolveFn": "function resolve(data) {\n  var x = data.series[0].xAxis\n  data.xAxis = x\n  return data;\n}"
-              }
-            },
-            "data": {
-              "xAxis": [
-                "一月",
-                "二月",
-                "三月",
-                "四月",
-                "五月",
-                "六月"
-              ],
-              "series": [
-                {
-                  "name": "111",
-                  "data": [
-                    34,
-                    51,
-                    63,
-                    75,
-                    86,
-                    59
-                  ]
+              "options": {
+                "isSmooth": true,
+                "showArea": true,
+                "max": 120,
+                "unit": "%",
+                "symbol": "circle",
+                "symbolSize": 10,
+                "colorList": [],
+                "grid": {
+                  "top": 30,
+                  "bottom": 10,
+                  "left": 30,
+                  "right": 30
                 },
-                {
-                  "name": "222",
-                  "data": [
-                    71,
-                    35,
-                    41,
-                    53,
-                    67,
-                    71
-                  ]
-                }
-              ]
+                "xAxisLabel": {
+                  "rotate": 0,
+                  "textLength": 5,
+                  "margin": 20,
+                  "align": "center"
+                },
+                "showLegend": true,
+                "legendPosition": {
+                  "left": "center",
+                  "top": "bottom"
+                },
+                "legendOrient": "horizontal",
+                "apiEnable": true,
+                "remote": {
+                  "url": "http://localhost:9999/module-line-data",
+                  "resolveFn": "function resolve(data) {n  let x = data.series[0].xAxisn  data.xAxis = xn  return data;n}"
+                },
+                "title": "resolveFunction3232"
+              },
+              "data": {
+                "xAxis": [
+                  "一月",
+                  "二月",
+                  "三月",
+                  "四月",
+                  "五月",
+                  "六月"
+                ],
+                "series": [
+                  {
+                    "name": "111",
+                    "data": [
+                      34,
+                      51,
+                      63,
+                      75,
+                      86,
+                      59
+                    ]
+                  },
+                  {
+                    "name": "222",
+                    "data": [
+                      71,
+                      35,
+                      41,
+                      53,
+                      67,
+                      71
+                    ]
+                  }
+                ]
+              },
+              "rowIndex": 1,
+              "moduleIndex": 0
             }
-          }
-        ]
-      },
-      {
-        "layout": {
-          "height": 302
-        },
-        "modules": [
-          {
-            "type": "line",
-            "title": "Line Chart",
-            "layout": {
-              "width": 0
-            },
-            "options": {
-              "isSmooth": false,
-              "showArea": true,
-              "max": 100,
-              "unit": "%",
-              "symbol": "circle",
-              "symbolSize": 10,
-              "colorList": [],
-              "grid": {
-                "top": 30,
-                "bottom": 10,
-                "left": 30,
-                "right": 30
-              },
-              "xAxisLabel": {
-                "rotate": 0,
-                "textLength": 5,
-                "margin": 20,
-                "align": "center"
-              },
-              "showLegend": true,
-              "legendPosition": {
-                "left": "center",
-                "top": "bottom"
-              },
-              "legendOrient": "horizontal",
-              "apiEnable": true,
-              "remote": {
-                "url": "http://localhost:9999/module-line",
-                "resolveFn": "function resolve(data) {\n  return data;\n}"
-              }
-            },
-            "data": {
-              "xAxis": [
-                "1月",
-                "二月",
-                "三月",
-                "四月",
-                "五月",
-                "六月"
-              ],
-              "series": [
-                {
-                  "name": "111",
-                  "data": [
-                    34,
-                    51,
-                    63,
-                    75,
-                    86,
-                    59
-                  ]
-                },
-                {
-                  "name": "222",
-                  "data": [
-                    71,
-                    35,
-                    41,
-                    53,
-                    67,
-                    71
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "layout": {
-          "height": 286
-        },
-        "modules": [
-          {
-            "type": "pie",
-            "layout": {
-              "width": 57.6973
-            },
-            "options": {
-              "legendPosition": {
-                "top": 10,
-                "left": 5
-              },
-              "showTotal": false
-            },
-            "data": {
-              "total": 122,
-              "series": [
-                {
-                  "name": "CWPP-病毒查杀",
-                  "value": 33
-                },
-                {
-                  "name": "vDB-数据库安全威胁",
-                  "value": 23
-                },
-                {
-                  "name": "vNGFW-病毒威胁",
-                  "value": 20
-                },
-                {
-                  "name": "vVulnScan-网络漏洞扫描",
-                  "value": 15
-                },
-                {
-                  "name": "vNGFW-Flood攻击",
-                  "value": 10
-                }
-              ]
-            }
-          },
-          {
-            "type": "bar",
-            "col": 12,
-            "layout": {
-              "width": 42.3025
-            },
-            "options": {
-              "classify": "normal",
-              "isVertical": false,
-              "max": 100,
-              "unit": "%",
-              "isBorderRadius": true,
-              "showBackground": true
-            },
-            "data": {
-              "xAxis": [
-                "1.12.12.1",
-                "1.12.12.2",
-                "1.12.12.12",
-                "1.12.12.112",
-                "1.12.12.88"
-              ],
-              "series": [
-                {
-                  "name": "CPU使用率",
-                  "data": [
-                    10,
-                    30,
-                    50,
-                    78,
-                    120
-                  ],
-                  "colors": [
-                    "yellow",
-                    "orange"
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "layout": {
-          "height": 552
-        },
-        "modules": [
-          {
-            "type": "earth",
-            "layout": {
-              "width": 100
-            },
-            "options": {},
-            "data": {}
-          }
-        ]
-      },
-      {
-        "layout": {
-          "height": 511
-        },
-        "modules": [
-          {
-            "type": "threeStars",
-            "layout": {
-              "width": 100
-            },
-            "options": {},
-            "data": {}
-          }
-        ]
-      }
-    ]
+          ]
+        }
+      ]
+    }
   },
   {
     "id": 14,
-    "config": [
-      {
-        "layout": {
-          "height": 300
-        },
-        "modules": [
-          {
-            "type": "table",
-            "title": "",
-            "layout": {
-              "width": 100
-            },
-            "options": {
-              "showHeader": true,
-              "showBorder": false
-            },
-            "data": {
-              "rowKey": "name",
-              "columns": [
-                {
-                  "title": "姓名",
-                  "dataIndex": "name"
-                },
-                {
-                  "title": "年龄",
-                  "dataIndex": "age"
-                },
-                {
-                  "title": "住址",
-                  "dataIndex": "address"
-                }
-              ],
-              "list": [
-                {
-                  "name": "张三",
-                  "age": 32,
-                  "address": "北京"
-                },
-                {
-                  "name": "李四",
-                  "age": 42,
-                  "address": "上海"
-                },
-                {
-                  "name": "王五",
-                  "age": 31,
-                  "address": "广州"
-                },
-                {
-                  "name": "孙不二",
-                  "age": 32,
-                  "address": "深圳"
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "layout": {
-          "height": 365
-        },
-        "modules": [
-          {
-            "type": "line",
-            "title": "Line Chart",
-            "layout": {
-              "width": 100
-            },
-            "options": {
-              "isSmooth": false,
-              "showArea": true,
-              "max": 100,
-              "unit": "%",
-              "symbol": "circle",
-              "symbolSize": 10,
-              "colorList": [],
-              "grid": {
-                "top": 30,
-                "bottom": 10,
-                "left": 30,
-                "right": 30
-              },
-              "xAxisLabel": {
-                "rotate": 0,
-                "textLength": 5,
-                "margin": 20,
-                "align": "center"
-              },
-              "showLegend": true,
-              "legendPosition": {
-                "left": "center",
-                "top": "bottom"
-              },
-              "legendOrient": "horizontal",
-              "apiEnable": true,
-              "remote": {
-                "url": "http://localhost:9999/module-line",
-                "resolveFn": "function resolve(data) {\n  return data;\n}"
-              },
-              "title": "Line Chart"
-            },
-            "data": {
-              "xAxis": [
-                "1月",
-                "2月",
-                "三月",
-                "四月",
-                "五月",
-                "六月"
-              ],
-              "series": [
-                {
-                  "name": "111",
-                  "data": [
-                    34,
-                    51,
-                    63,
-                    75,
-                    86,
-                    59
-                  ]
-                },
-                {
-                  "name": "222",
-                  "data": [
-                    71,
-                    35,
-                    41,
-                    53,
-                    67,
-                    71
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "layout": {
-          "height": 300
-        },
-        "modules": [
-          {
-            "type": "bar",
-            "col": 12,
-            "layout": {
-              "width": 100
-            },
-            "options": {
-              "classify": "normal",
-              "isVertical": false,
-              "max": 100,
-              "unit": "%",
-              "isBorderRadius": true,
-              "showBackground": true
-            },
-            "data": {
-              "xAxis": [
-                "1.12.12.1",
-                "1.12.12.2",
-                "1.12.12.12",
-                "1.12.12.112",
-                "1.12.12.88"
-              ],
-              "series": [
-                {
-                  "name": "CPU使用率",
-                  "data": [
-                    10,
-                    30,
-                    50,
-                    78,
-                    120
-                  ],
-                  "colors": [
-                    "yellow",
-                    "orange"
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "layout": {
-          "height": 339
-        },
-        "modules": [
-          {
-            "type": "line",
-            "title": "Line Chart",
-            "layout": {
-              "width": 64.4078
-            },
-            "options": {
-              "isSmooth": true,
-              "showArea": true,
-              "max": 100,
-              "unit": "%",
-              "symbol": "circle",
-              "symbolSize": 10,
-              "colorList": [],
-              "grid": {
-                "top": 30,
-                "bottom": 10,
-                "left": 30,
-                "right": 30
-              },
-              "xAxisLabel": {
-                "rotate": 0,
-                "textLength": 5,
-                "margin": 20,
-                "align": "center"
-              },
-              "showLegend": true,
-              "legendPosition": {
-                "left": "center",
-                "top": "bottom"
-              },
-              "legendOrient": "horizontal",
-              "apiEnable": true,
-              "remote": {
-                "url": "http://localhost:9999/module-line-data",
-                "resolveFn": "function resolve(data) {\n  var x = data.series[0].xAxis\n  data.xAxis = x\n  return data;\n}"
-              }
-            },
-            "data": {
-              "xAxis": [
-                "一月",
-                "二月",
-                "三月",
-                "四月",
-                "五月",
-                "六月"
-              ],
-              "series": [
-                {
-                  "name": "111",
-                  "data": [
-                    34,
-                    51,
-                    63,
-                    75,
-                    86,
-                    59
-                  ]
-                },
-                {
-                  "name": "222",
-                  "data": [
-                    71,
-                    35,
-                    41,
-                    53,
-                    67,
-                    71
-                  ]
-                }
-              ]
-            }
+    "config": {
+      "type": "flow",
+      "layout": {},
+      "data": [
+        {
+          "layout": {
+            "height": 300
           },
-          {
-            "type": "process",
-            "layout": {
-              "width": 35.5921
-            },
-            "options": {
-              "showTitle": true,
-              "colorList": [
-                "#32cd32"
-              ]
-            },
-            "data": {
-              "series": [
-                {
-                  "value": 60,
-                  "total": 100,
-                  "desc": "分配率"
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "layout": {
-          "height": 300
-        },
-        "modules": [
-          {
-            "type": "pie",
-            "layout": {
-              "width": 100
-            },
-            "options": {
-              "legendPosition": {
-                "top": 10,
-                "left": 5
+          "modules": [
+            {
+              "type": "table",
+              "title": "",
+              "layout": {
+                "width": 100
               },
-              "showTotal": false
-            },
-            "data": {
-              "total": 122,
-              "series": [
-                {
-                  "name": "CWPP-病毒查杀",
-                  "value": 33
-                },
-                {
-                  "name": "vDB-数据库安全威胁",
-                  "value": 23
-                },
-                {
-                  "name": "vNGFW-病毒威胁",
-                  "value": 20
-                },
-                {
-                  "name": "vVulnScan-网络漏洞扫描",
-                  "value": 15
-                },
-                {
-                  "name": "vNGFW-Flood攻击",
-                  "value": 10
-                }
-              ]
+              "options": {
+                "showHeader": true,
+                "showBorder": false
+              },
+              "data": {
+                "rowKey": "name",
+                "columns": [
+                  {
+                    "title": "姓名",
+                    "dataIndex": "name"
+                  },
+                  {
+                    "title": "年龄",
+                    "dataIndex": "age"
+                  },
+                  {
+                    "title": "住址",
+                    "dataIndex": "address"
+                  }
+                ],
+                "list": [
+                  {
+                    "name": "张三",
+                    "age": 32,
+                    "address": "北京"
+                  },
+                  {
+                    "name": "李四",
+                    "age": 42,
+                    "address": "上海"
+                  },
+                  {
+                    "name": "王五",
+                    "age": 31,
+                    "address": "广州"
+                  },
+                  {
+                    "name": "孙不二",
+                    "age": 32,
+                    "address": "深圳"
+                  }
+                ]
+              },
+              "rowIndex": 0,
+              "moduleIndex": 0
             }
-          }
-        ]
-      },
-      {
-        "layout": {
-          "height": 530
+          ]
         },
-        "modules": [
-          {
-            "type": "earth",
-            "layout": {
-              "width": 100
-            },
-            "options": {},
-            "data": {}
-          }
-        ]
-      },
-      {
-        "layout": {
-          "height": 659
+        {
+          "layout": {
+            "height": 365
+          },
+          "modules": [
+            {
+              "type": "line",
+              "title": "Line Chart",
+              "layout": {
+                "width": 100
+              },
+              "options": {
+                "isSmooth": false,
+                "showArea": true,
+                "max": 100,
+                "unit": "%",
+                "symbol": "circle",
+                "symbolSize": 10,
+                "colorList": [],
+                "grid": {
+                  "top": 30,
+                  "bottom": 10,
+                  "left": 30,
+                  "right": 30
+                },
+                "xAxisLabel": {
+                  "rotate": 0,
+                  "textLength": 5,
+                  "margin": 20,
+                  "align": "center"
+                },
+                "showLegend": true,
+                "legendPosition": {
+                  "left": "center",
+                  "top": "bottom"
+                },
+                "legendOrient": "horizontal",
+                "apiEnable": true,
+                "remote": {
+                  "url": "http://localhost:9999/module-line",
+                  "resolveFn": "function resolve(data) {n  return data;n}"
+                },
+                "title": "Line Chart"
+              },
+              "data": {
+                "xAxis": [
+                  "1月",
+                  "2月",
+                  "三月",
+                  "四月",
+                  "五月",
+                  "六月"
+                ],
+                "series": [
+                  {
+                    "name": "111",
+                    "data": [
+                      34,
+                      51,
+                      63,
+                      75,
+                      86,
+                      59
+                    ]
+                  },
+                  {
+                    "name": "222",
+                    "data": [
+                      71,
+                      35,
+                      41,
+                      53,
+                      67,
+                      71
+                    ]
+                  }
+                ]
+              },
+              "rowIndex": 1,
+              "moduleIndex": 0
+            }
+          ]
         },
-        "modules": [
-          {
-            "type": "threeStars",
-            "layout": {
-              "width": 100
+        {
+          "layout": {
+            "height": 300
+          },
+          "modules": [
+            {
+              "type": "bar",
+              "col": 12,
+              "layout": {
+                "width": 100
+              },
+              "options": {
+                "classify": "normal",
+                "isVertical": false,
+                "max": 100,
+                "unit": "%",
+                "isBorderRadius": true,
+                "showBackground": true
+              },
+              "data": {
+                "xAxis": [
+                  "1.12.12.1",
+                  "1.12.12.2",
+                  "1.12.12.12",
+                  "1.12.12.112",
+                  "1.12.12.88"
+                ],
+                "series": [
+                  {
+                    "name": "CPU使用率",
+                    "data": [
+                      10,
+                      30,
+                      50,
+                      78,
+                      120
+                    ],
+                    "colors": [
+                      "yellow",
+                      "orange"
+                    ]
+                  }
+                ]
+              },
+              "rowIndex": 2,
+              "moduleIndex": 0
+            }
+          ]
+        },
+        {
+          "layout": {
+            "height": 339
+          },
+          "modules": [
+            {
+              "type": "line",
+              "title": "Line Chart",
+              "layout": {
+                "width": 64.4078
+              },
+              "options": {
+                "isSmooth": true,
+                "showArea": true,
+                "max": 100,
+                "unit": "%",
+                "symbol": "circle",
+                "symbolSize": 10,
+                "colorList": [],
+                "grid": {
+                  "top": 30,
+                  "bottom": 10,
+                  "left": 30,
+                  "right": 30
+                },
+                "xAxisLabel": {
+                  "rotate": 0,
+                  "textLength": 5,
+                  "margin": 20,
+                  "align": "center"
+                },
+                "showLegend": true,
+                "legendPosition": {
+                  "left": "center",
+                  "top": "bottom"
+                },
+                "legendOrient": "horizontal",
+                "apiEnable": true,
+                "remote": {
+                  "url": "http://localhost:9999/module-line-data",
+                  "resolveFn": "function resolve(data) {n  var x = data.series[0].xAxisn  data.xAxis = xn  return data;n}"
+                }
+              },
+              "data": {
+                "xAxis": [
+                  "一月",
+                  "二月",
+                  "三月",
+                  "四月",
+                  "五月",
+                  "六月"
+                ],
+                "series": [
+                  {
+                    "name": "111",
+                    "data": [
+                      34,
+                      51,
+                      63,
+                      75,
+                      86,
+                      59
+                    ]
+                  },
+                  {
+                    "name": "222",
+                    "data": [
+                      71,
+                      35,
+                      41,
+                      53,
+                      67,
+                      71
+                    ]
+                  }
+                ]
+              },
+              "rowIndex": 3,
+              "moduleIndex": 0
             },
-            "options": {},
-            "data": {}
-          }
-        ]
-      }
-    ]
+            {
+              "type": "process",
+              "layout": {
+                "width": 35.5921
+              },
+              "options": {
+                "showTitle": true,
+                "colorList": [
+                  "#32cd32"
+                ]
+              },
+              "data": {
+                "series": [
+                  {
+                    "value": 60,
+                    "total": 100,
+                    "desc": "分配率"
+                  }
+                ]
+              },
+              "rowIndex": 3,
+              "moduleIndex": 1
+            }
+          ]
+        },
+        {
+          "layout": {
+            "height": 300
+          },
+          "modules": [
+            {
+              "type": "pie",
+              "layout": {
+                "width": 100
+              },
+              "options": {
+                "legendPosition": {
+                  "top": 10,
+                  "left": 5
+                },
+                "showTotal": false
+              },
+              "data": {
+                "total": 122,
+                "series": [
+                  {
+                    "name": "CWPP-病毒查杀",
+                    "value": 33
+                  },
+                  {
+                    "name": "vDB-数据库安全威胁",
+                    "value": 23
+                  },
+                  {
+                    "name": "vNGFW-病毒威胁",
+                    "value": 20
+                  },
+                  {
+                    "name": "vVulnScan-网络漏洞扫描",
+                    "value": 15
+                  },
+                  {
+                    "name": "vNGFW-Flood攻击",
+                    "value": 10
+                  }
+                ]
+              },
+              "rowIndex": 4,
+              "moduleIndex": 0
+            }
+          ]
+        },
+        {
+          "layout": {
+            "height": 530
+          },
+          "modules": [
+            {
+              "type": "earth",
+              "layout": {
+                "width": 100
+              },
+              "options": {},
+              "data": {},
+              "rowIndex": 5,
+              "moduleIndex": 0
+            }
+          ]
+        },
+        {
+          "layout": {
+            "height": 659
+          },
+          "modules": [
+            {
+              "type": "threeStars",
+              "layout": {
+                "width": 100
+              },
+              "options": {},
+              "data": {},
+              "rowIndex": 6,
+              "moduleIndex": 0
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "id": 15,
-    "config": [
-      {
-        "layout": {
-          "height": 300
-        },
-        "modules": [
-          {
-            "type": "layout",
-            "title": "Line Chart",
-            "layout": {
-              "width": 100
-            },
-            "options": {
-              "left": {
-                "width": 60,
-                "modules": [
-                  {
-                    "type": "empty",
-                    "layout": {
-                      "height": 60
-                    }
-                  },
-                  {
-                    "type": "empty",
-                    "layout": {
-                      "height": 40
-                    }
-                  }
-                ]
-              },
-              "right": {
-                "width": 40,
-                "modules": [
-                  {
-                    "type": "empty"
-                  }
-                ]
-              }
-            },
-            "data": {}
-          }
-        ]
+    "config": {
+      "type": "absolute",
+      "layout": {
+        "width": "1920px",
+        "height": "1080px"
       },
-      {
-        "layout": {
-          "height": 300
-        },
-        "modules": [
-          {
-            "type": "line",
-            "title": "Line Chart",
-            "layout": {
-              "width": 100
-            },
-            "options": {
-              "isSmooth": true,
-              "showArea": true,
-              "max": 100,
-              "unit": "%",
-              "symbol": "circle",
-              "symbolSize": 10,
-              "colorList": [],
-              "grid": {
-                "top": 30,
-                "bottom": 10,
-                "left": 30,
-                "right": 30
-              },
-              "xAxisLabel": {
-                "rotate": 0,
-                "textLength": 5,
-                "margin": 20,
-                "align": "center"
-              },
-              "showLegend": false,
-              "legendPosition": {
-                "left": "center",
-                "top": "bottom"
-              },
-              "legendOrient": "horizontal",
-              "apiEnable": false,
-              "remote": {
-                "url": "",
-                "resolveFn": ""
-              }
-            },
-            "data": {
-              "xAxis": [
-                "一月",
-                "二月",
-                "三月",
-                "四月",
-                "五月",
-                "六月"
-              ],
-              "series": [
-                {
-                  "name": "111",
-                  "data": [
-                    34,
-                    51,
-                    63,
-                    75,
-                    86,
-                    59
-                  ]
-                },
-                {
-                  "name": "222",
-                  "data": [
-                    71,
-                    35,
-                    41,
-                    53,
-                    67,
-                    71
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": 16,
-    "config": [
-      {
-        "layout": {
-          "height": 300
-        },
-        "modules": [
-          {
-            "type": "process",
-            "layout": {
-              "width": 36.4472
-            },
-            "options": {
-              "showTitle": true,
-              "colorList": [
-                "#32cd32"
-              ]
-            },
-            "data": {
-              "series": [
-                {
-                  "value": 60,
-                  "total": 100,
-                  "desc": "分配率"
-                }
-              ]
-            },
-            "rowIndex": 0,
-            "moduleIndex": 0
+      "data": [
+        {
+          "type": "line",
+          "title": "Line Chart",
+          "layout": {
+            "width": "300px",
+            "height": "200px",
+            "left": "100px",
+            "top": "300px"
           },
-          {
-            "type": "line",
-            "title": "Line Chart",
-            "layout": {
-              "width": 63.5526
+          "options": {
+            "isSmooth": false,
+            "showArea": false,
+            "max": 100,
+            "unit": "%",
+            "symbol": "triangle",
+            "symbolSize": 14,
+            "colorList": [],
+            "grid": {
+              "top": 30,
+              "bottom": 10,
+              "left": 30,
+              "right": 30
             },
-            "options": {
-              "isSmooth": true,
-              "showArea": true,
-              "max": 100,
-              "unit": "%",
-              "symbol": "circle",
-              "symbolSize": 10,
-              "colorList": [],
-              "grid": {
-                "top": 30,
-                "bottom": 10,
-                "left": 30,
-                "right": 30
-              },
-              "xAxisLabel": {
-                "rotate": 0,
-                "textLength": 5,
-                "margin": 20,
-                "align": "center"
-              },
-              "showLegend": false,
-              "legendPosition": {
-                "left": "center",
-                "top": "bottom"
-              },
-              "legendOrient": "horizontal",
-              "apiEnable": false,
-              "remote": {
-                "url": "",
-                "resolveFn": ""
-              }
+            "xAxisLabel": {
+              "rotate": 0,
+              "textLength": 5,
+              "margin": 20,
+              "align": "center"
             },
-            "data": {
-              "xAxis": [
-                "一月",
-                "二月",
-                "三月",
-                "四月",
-                "五月",
-                "六月"
-              ],
-              "series": [
-                {
-                  "name": "111",
-                  "data": [
-                    34,
-                    51,
-                    63,
-                    75,
-                    86,
-                    59
-                  ]
-                },
-                {
-                  "name": "222",
-                  "data": [
-                    71,
-                    35,
-                    41,
-                    53,
-                    67,
-                    71
-                  ]
-                }
-              ]
+            "showLegend": true,
+            "legendPosition": {
+              "left": "center",
+              "top": "bottom"
             },
-            "rowIndex": 0,
-            "moduleIndex": 1
-          }
-        ]
-      },
-      {
-        "layout": {
-          "height": 688
-        },
-        "modules": [
-          {
-            "type": "layout",
-            "title": "Layout",
-            "layout": {
-              "width": 100
-            },
-            "options": {
-              "left": {
-                "width": 60,
-                "modules": [
-                  {
-                    "type": "line",
-                    "title": "Line Chart",
-                    "layout": {
-                      "height": 52.8779
-                    },
-                    "options": {
-                      "isSmooth": true,
-                      "showArea": true,
-                      "max": 100,
-                      "unit": "%",
-                      "symbol": "circle",
-                      "symbolSize": 10,
-                      "colorList": [],
-                      "grid": {
-                        "top": 30,
-                        "bottom": 10,
-                        "left": 30,
-                        "right": 30
-                      },
-                      "xAxisLabel": {
-                        "rotate": 0,
-                        "textLength": 5,
-                        "margin": 20,
-                        "align": "center"
-                      },
-                      "showLegend": false,
-                      "legendPosition": {
-                        "left": "center",
-                        "top": "bottom"
-                      },
-                      "legendOrient": "horizontal",
-                      "apiEnable": false,
-                      "remote": {
-                        "url": "",
-                        "resolveFn": ""
-                      },
-                      "title": "LineChart"
-                    },
-                    "data": {
-                      "xAxis": [
-                        "一月",
-                        "二月",
-                        "三月",
-                        "四月",
-                        "五月",
-                        "六月"
-                      ],
-                      "series": [
-                        {
-                          "name": "111",
-                          "data": [
-                            34,
-                            51,
-                            63,
-                            75,
-                            86,
-                            59
-                          ]
-                        },
-                        {
-                          "name": "222",
-                          "data": [
-                            71,
-                            35,
-                            41,
-                            53,
-                            67,
-                            71
-                          ]
-                        }
-                      ]
-                    },
-                    "layoutDirect": "left",
-                    "layoutIndex": 0
-                  },
-                  {
-                    "type": "process",
-                    "layout": {
-                      "height": 47.122
-                    },
-                    "options": {
-                      "showTitle": true,
-                      "colorList": [
-                        "#32cd32"
-                      ]
-                    },
-                    "data": {
-                      "series": [
-                        {
-                          "value": 60,
-                          "total": 100,
-                          "desc": "分配率"
-                        }
-                      ]
-                    }
-                  }
+            "legendOrient": "horizontal",
+            "title": "LineChart1231321",
+            "apiEnable": true,
+            "remote": {
+              "url": "http://localhost:9999/module-line",
+              "resolveFn": "function resolve(data) {\n  return data;\n}"
+            }
+          },
+          "data": {
+            "xAxis": [
+              "一月",
+              "二月",
+              "三月",
+              "四月",
+              "五月",
+              "六月"
+            ],
+            "series": [
+              {
+                "name": "111",
+                "data": [
+                  34,
+                  51,
+                  63,
+                  75,
+                  86,
+                  59
                 ]
               },
-              "right": {
-                "width": 40,
-                "modules": [
-                  {
-                    "title": "Bar Chart",
-                    "type": "bar",
-                    "col": 12,
-                    "options": {
-                      "classify": "normal",
-                      "isVertical": false,
-                      "max": 100,
-                      "unit": "%",
-                      "isBorderRadius": true,
-                      "showBackground": true,
-                      "colorList": [
-                        "#e7452f",
-                        "#f98946",
-                        "#ffde88",
-                        "#5ab237"
-                      ],
-                      "showSeriesValue": true,
-                      "title": "123213123"
-                    },
-                    "data": {
-                      "xAxis": [
-                        "1.12.12.1",
-                        "1.12.12.2",
-                        "1.12.12.12",
-                        "1.12.12.112",
-                        "1.12.12.88"
-                      ],
-                      "series": [
-                        {
-                          "name": "CPU使用率",
-                          "data": [
-                            120,
-                            50,
-                            10,
-                            30,
-                            78
-                          ],
-                          "colors": [
-                            "yellow",
-                            "orange"
-                          ]
-                        }
-                      ]
-                    },
-                    "layoutDirect": "right",
-                    "layoutIndex": 0
-                  }
+              {
+                "name": "222",
+                "data": [
+                  71,
+                  35,
+                  41,
+                  53,
+                  67,
+                  71
                 ]
               }
-            },
-            "data": {},
-            "rowIndex": 1,
-            "moduleIndex": 0
-          }
-        ]
-      }
-    ]
+            ]
+          },
+          "rowIndex": 0,
+          "moduleIndex": 1
+        }
+      ]
+    }
   }
 ]

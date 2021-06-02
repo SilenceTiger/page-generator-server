@@ -1,102 +1,27 @@
 [
   {
-    "id": 1,
-    "name": "Sun Earth Moon",
-    "description": "Sun Earth Moon",
-    "layout": {}
-  },
-  {
-    "id": 2,
-    "name": "Earth",
-    "description": "Earth",
-    "layout": {}
-  },
-  {
-    "id": 3,
-    "name": "page_one",
-    "description": "123",
-    "layout": {}
-  },
-  {
-    "name": "Earth_3",
-    "description": "Earth_3",
-    "id": 5,
-    "layout": {}
-  },
-  {
-    "name": "screen_1",
-    "description": "screen",
-    "id": 6,
-    "layout": {}
-  },
-  {
-    "id": 7,
-    "name": "template_1",
-    "layout": {
-      "width": "1200px"
-    }
-  },
-  {
-    "id": 8,
-    "name": "邹江涛screen",
-    "layout": {
-      "width": "1400px"
-    }
-  },
-  {
-    "name": "勇神",
-    "layout": {
-      "width": "1400px"
-    },
-    "id": 9
-  },
-  {
-    "name": "O(∩_∩)O哈哈~",
-    "layout": {
-      "width": "1300px"
-    },
-    "id": 10
-  },
-  {
-    "name": "screen_1",
-    "layout": {
-      "width": "1400px"
-    },
-    "id": 11
-  },
-  {
+    "id": 12,
     "name": "Line",
+    "type": "flow",
     "layout": {
-      "width": "1000px"
-    },
-    "id": 12
-  },
-  {
-    "name": "MAOMAO",
-    "layout": {
-      "width": "1400px"
-    },
-    "id": 13
+      "flowWidth": "1400px"
+    }
   },
   {
     "id": 14,
     "name": "360",
+    "type": "flow",
     "layout": {
-      "width": "100%"
+      "flowWidth": "100%"
     }
   },
   {
-    "name": "test_1",
+    "name": "test",
+    "type": "absolute",
     "layout": {
-      "width": "100%"
+      "width": "1920px",
+      "height": "1080px"
     },
     "id": 15
-  },
-  {
-    "id": 16,
-    "name": "layout",
-    "layout": {
-      "width": "100%"
-    }
   }
 ]

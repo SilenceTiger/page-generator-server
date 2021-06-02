@@ -88,7 +88,11 @@ app.post('/page', (req, res) => {
   let configs = JSON.parse(configStr)
   let temp = {
     id: _id,
-    config: [],
+    config: {
+      type: _page.type,
+      layout: _page.layout,
+      data: []
+    },
   }
   if (copyId) {
     let _config = configs.find((c) => c.id === copyId)
