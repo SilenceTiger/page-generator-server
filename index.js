@@ -5,13 +5,24 @@ app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: false }))
 const fs = require('fs')
 const path = require('path')
+const multer = require('multer')
 
-// const qiniu = require('qiniu')
-const accessKey = 'vrK8D8_ll2jaS-2MbIjVRtnWLPJcUzxWMKeqcda7'
-const secretKey = 'aU3zO6ESIl951PqwJGr4pmMLFlRcEqxwTcUTloP9'
-// const mac = new qiniu.auth.digest.Mac(accessKey, secretKey) // 鉴权对象
-const bucketName = 'silence-tiger'
-const DOMAIN = 'http://qq1munyah.hn-bkt.clouddn.com'
+app.use(express.static("public"))
+
+const HOST = 'http://localhost:9999/'
+
+const storage = multer.diskStorage({
+  destination: function (req, file, cb) {
+    cb(null, 'public/uploads/')
+  },
+  filename: function (req, file, cb) {
+    // const extname = path.extname(file.originalname)
+    // TODO 重名判断
+    cb(null, file.originalname)
+  }
+})
+
+const upload = multer({ storage: storage });
 
 /*为app添加中间件处理跨域请求*/
 app.all('*', function (req, res, next) {
@@ -25,21 +36,29 @@ app.get('/', function (req, res) {
   res.send('welcome to my mock-server')
 })
 
-// 上传图片token
-// app.post('/token', (req, res) => {
-//   const key = req.body.key
-//   const body = {
-//     fileUrl: DOMAIN + '/' + key,
-//   }
-//   const putPolicy = new qiniu.rs.PutPolicy({
-//     scope: bucketName,
-//     returnBody: JSON.stringify(body),
-//   })
-//   const uploadToken = putPolicy.uploadToken(mac)
-//   res.json({
-//     token: uploadToken,
-//   })
-// })
+app.post('/upload', upload.single('file'), (req, res) => {
+  const jsonStr = fs.readFileSync(path.resolve(__dirname, './data/images.json'), 'utf-8')
+  let data = JSON.parse(jsonStr)
+  let temp = {
+    name: req.file.filename,
+    url: HOST + 'uploads/' + req.file.filename
+  }
+  data.unshift(temp)
+  fs.writeFileSync(path.resolve(__dirname, './data/images.json'), JSON.stringify(data, null, 2))
+  res.json({
+    code: 200,
+    data: temp.url
+  })
+})
+
+app.get('/images', (req, res) => {
+  const jsonStr = fs.readFileSync(path.resolve(__dirname, './data/images.json'), 'utf-8')
+  let data = JSON.parse(jsonStr)
+  res.json({
+    code: 200,
+    data: data,
+  })
+})
 
 // 获取所有的pages
 app.get('/pages', (req, res) => {
