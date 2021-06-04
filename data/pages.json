@@ -1,21 +1,5 @@
 [
   {
-    "id": 12,
-    "name": "Line",
-    "type": "flow",
-    "layout": {
-      "flowWidth": "1400px"
-    }
-  },
-  {
-    "id": 14,
-    "name": "360",
-    "type": "flow",
-    "layout": {
-      "flowWidth": "100%"
-    }
-  },
-  {
     "name": "test",
     "type": "absolute",
     "layout": {
@@ -23,5 +7,23 @@
       "height": "1080px"
     },
     "id": 15
+  },
+  {
+    "name": "new",
+    "type": "absolute",
+    "layout": {
+      "width": "1200px",
+      "height": "800px"
+    },
+    "id": 16
+  },
+  {
+    "name": "flow",
+    "type": "flow",
+    "description": "1",
+    "layout": {
+      "flowWidth": "100%"
+    },
+    "id": 17
   }
 ]
