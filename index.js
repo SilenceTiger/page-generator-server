@@ -70,16 +70,12 @@ app.get('/pages', (req, res) => {
   })
 })
 
-// 根据page id 获取 pageConfig
-app.get('/page-config', (req, res) => {
+// 获取一个page
+app.get('/page', (req, res) => {
   const targetId = +req.query.id
   const pagesStr = fs.readFileSync(path.resolve(__dirname, './data/pages.json'), 'utf-8')
   let pages = JSON.parse(pagesStr)
   const targetPage = pages.find((item) => item.id === targetId)
-  const configStr = fs.readFileSync(path.resolve(__dirname, './data/pages-config.json'), 'utf-8')
-  let configs = JSON.parse(configStr)
-  let targetConfig = configs.find((item) => item.id === targetId) || {}
-  targetPage.config = targetConfig.config 
   res.json({
     code: 200,
     data: targetPage,
@@ -89,7 +85,7 @@ app.get('/page-config', (req, res) => {
 // 新增page
 app.post('/page', (req, res) => {
   let _page = req.body
-  let copyId = _page.id
+  // let copyId = _page.id
   const pagesStr = fs.readFileSync(path.resolve(__dirname, './data/pages.json'), 'utf-8')
   let pages = JSON.parse(pagesStr)
   let max = 0
@@ -100,25 +96,11 @@ app.post('/page', (req, res) => {
   }
   let _id = max + 1
   _page.id = _id
+  // if(copyId) {
+  //   let copyPage = pages.find(page => page.id === copyId)
+  // }
   pages.push(_page)
   fs.writeFileSync(path.resolve(__dirname, './data/pages.json'), JSON.stringify(pages, null, 2))
-
-  const configStr = fs.readFileSync(path.resolve(__dirname, './data/pages-config.json'), 'utf-8')
-  let configs = JSON.parse(configStr)
-  let temp = {
-    id: _id,
-    config: {
-      type: _page.type,
-      layout: _page.layout,
-      data: []
-    },
-  }
-  if (copyId) {
-    let _config = configs.find((c) => c.id === copyId)
-    temp.config = _config.config
-  }
-  configs.push(temp)
-  fs.writeFileSync(path.resolve(__dirname, './data/pages-config.json'), JSON.stringify(configs, null, 2))
   res.json({
     code: 200,
     msg: 'Add Success！',
@@ -153,17 +135,6 @@ app.delete('/page/:id', (req, res) => {
       break
     }
   }
-  fs.writeFileSync(path.resolve(__dirname, './data/pages.json'), JSON.stringify(pages, null, 2))
-  const configStr = fs.readFileSync(path.resolve(__dirname, './data/pages-config.json'), 'utf-8')
-  let configs = JSON.parse(configStr)
-  let _len = configs.length
-  for (let i = _len - 1; i >= 0; i--) {
-    if (configs[i].id === _id) {
-      configs.splice(i, 1)
-      break
-    }
-  }
-  fs.writeFileSync(path.resolve(__dirname, './data/pages-config.json'), JSON.stringify(configs, null, 2))
   res.json({
     code: 200,
   })

@@ -1,29 +1,186 @@
 [
   {
-    "name": "test",
-    "type": "absolute",
-    "layout": {
-      "width": "1920px",
-      "height": "1080px"
-    },
-    "id": 15
+    "id": 18,
+    "name": "new_struct",
+    "theme": "light",
+    "isFullScreen": true,
+    "config": {
+      "type": "absolute",
+      "layout": {
+        "width": "1500px",
+        "height": "800px",
+        "background": "http://localhost:9999/uploads/IMGL2542 象鼻册（棕色）1010 寸 底片0.jpg"
+      },
+      "data": [
+        {
+          "type": "line",
+          "title": "Line Chart",
+          "layout": {
+            "width": "715px",
+            "height": "260px",
+            "left": "45px",
+            "top": "17px"
+          },
+          "options": {
+            "isSmooth": true,
+            "showArea": true,
+            "max": 100,
+            "unit": "%",
+            "symbol": "circle",
+            "symbolSize": 10,
+            "colorList": [],
+            "grid": {
+              "top": 30,
+              "bottom": 10,
+              "left": 30,
+              "right": 30
+            },
+            "xAxisLabel": {
+              "rotate": 0,
+              "textLength": 5,
+              "margin": 20,
+              "align": "center"
+            },
+            "showLegend": false,
+            "legendPosition": {
+              "left": "center",
+              "top": "bottom"
+            },
+            "legendOrient": "horizontal",
+            "apiEnable": false,
+            "remote": {
+              "url": "",
+              "resolveFn": ""
+            }
+          },
+          "data": {
+            "xAxis": [
+              "一月",
+              "二月",
+              "三月",
+              "四月",
+              "五月",
+              "六月"
+            ],
+            "series": [
+              {
+                "name": "111",
+                "data": [
+                  34,
+                  51,
+                  63,
+                  75,
+                  86,
+                  59
+                ]
+              },
+              {
+                "name": "222",
+                "data": [
+                  71,
+                  35,
+                  41,
+                  53,
+                  67,
+                  71
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
   },
   {
-    "name": "new",
-    "type": "absolute",
-    "layout": {
-      "width": "1200px",
-      "height": "800px"
-    },
-    "id": 16
-  },
-  {
-    "name": "flow",
-    "type": "flow",
-    "description": "1",
-    "layout": {
-      "flowWidth": "100%"
-    },
-    "id": 17
+    "id": 19,
+    "name": "new_struct_1",
+    "theme": "light",
+    "isFullScreen": true,
+    "config": {
+      "type": "absolute",
+      "layout": {
+        "width": "1500px",
+        "height": "800px",
+        "background": "#cb1111"
+      },
+      "data": [
+        {
+          "type": "line",
+          "title": "Line Chart",
+          "layout": {
+            "width": "715px",
+            "height": "260px",
+            "left": "45px",
+            "top": "17px"
+          },
+          "options": {
+            "isSmooth": true,
+            "showArea": true,
+            "max": 100,
+            "unit": "%",
+            "symbol": "circle",
+            "symbolSize": 10,
+            "colorList": [],
+            "grid": {
+              "top": 30,
+              "bottom": 10,
+              "left": 30,
+              "right": 30
+            },
+            "xAxisLabel": {
+              "rotate": 0,
+              "textLength": 5,
+              "margin": 20,
+              "align": "center"
+            },
+            "showLegend": false,
+            "legendPosition": {
+              "left": "center",
+              "top": "bottom"
+            },
+            "legendOrient": "horizontal",
+            "apiEnable": false,
+            "remote": {
+              "url": "",
+              "resolveFn": ""
+            }
+          },
+          "data": {
+            "xAxis": [
+              "一月",
+              "二月",
+              "三月",
+              "四月",
+              "五月",
+              "六月"
+            ],
+            "series": [
+              {
+                "name": "111",
+                "data": [
+                  34,
+                  51,
+                  63,
+                  75,
+                  86,
+                  59
+                ]
+              },
+              {
+                "name": "222",
+                "data": [
+                  71,
+                  35,
+                  41,
+                  53,
+                  67,
+                  71
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
   }
 ]
