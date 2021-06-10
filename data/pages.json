@@ -2044,33 +2044,5 @@
       ]
     },
     "id": 20
-  },
-  {
-    "name": "1111",
-    "description": "1",
-    "theme": "light",
-    "config": {
-      "type": "absolute",
-      "layout": {
-        "width": "1400px",
-        "height": "800px",
-        "background": "http://localhost:9999/uploads/IMGL2542 象鼻册（棕色）1010 寸 底片0.jpg"
-      },
-      "data": []
-    },
-    "id": 21
-  },
-  {
-    "name": "222",
-    "theme": "light",
-    "config": {
-      "type": "absolute",
-      "layout": {
-        "width": "1400px",
-        "height": "700px"
-      },
-      "data": []
-    },
-    "id": 22
   }
 ]

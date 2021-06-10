@@ -135,6 +135,8 @@ app.delete('/page/:id', (req, res) => {
       break
     }
   }
+  fs.writeFileSync(path.resolve(__dirname, './data/pages.json'), JSON.stringify(pages, null, 2))
+
   res.json({
     code: 200,
   })
