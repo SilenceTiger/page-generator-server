@@ -202,8 +202,8 @@
           "layout": {
             "width": "484px",
             "height": "260px",
-            "left": "774px",
-            "top": "577px",
+            "left": "683px",
+            "top": "487px",
             "zIndex": 2
           },
           "options": {
@@ -564,6 +564,1099 @@
             "html": "<h1 style=\"text-align:center;\" size=\"0\" _root=\"undefined\" __ownerid=\"undefined\" __hash=\"undefined\" __altered=\"false\"><span style=\"color:#fdda00\">hello world</span></h1><p style=\"text-align:center;\"><span style=\"font-size:30px\"><span style=\"color:#003ba5\">白日依山尽，黄河入海流。欲穷千里目，更上一层楼。</span></span></p><p class=\"media-wrap image-wrap align-center\"></p><p></p><div class=\"media-wrap image-wrap\"><img src=\"http://localhost:9999/uploads/攻击目标地址TOP10.png\"/></div><p></p>"
           },
           "data": {}
+        },
+        {
+          "type": "text",
+          "title": "",
+          "layout": {
+            "width": "300px",
+            "height": "260px",
+            "left": "315px",
+            "top": "420px"
+          },
+          "options": {
+            "content": "34523452345",
+            "fontSize": 18,
+            "color": "#888",
+            "align": "left",
+            "fontWeight": 400
+          },
+          "data": {
+            "content": "请输入文本内容..."
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 20,
+    "name": "态势感知",
+    "theme": "light",
+    "isFullScreen": true,
+    "config": {
+      "type": "absolute",
+      "layout": {
+        "width": "1500px",
+        "height": "850px",
+        "background": "#222222"
+      },
+      "data": [
+        {
+          "type": "text",
+          "title": "",
+          "layout": {
+            "width": "300px",
+            "height": "260px",
+            "left": "616px",
+            "top": "-19px"
+          },
+          "options": {
+            "content": "安全态势感知",
+            "fontSize": 40,
+            "color": "#0f8eeb",
+            "align": "center",
+            "fontWeight": 400
+          },
+          "data": {
+            "content": "请输入文本内容..."
+          }
+        },
+        {
+          "type": "line",
+          "title": "Line Chart",
+          "layout": {
+            "width": "300px",
+            "height": "260px",
+            "left": "-328px",
+            "top": "-10px"
+          },
+          "options": {
+            "isSmooth": true,
+            "showArea": true,
+            "max": 100,
+            "unit": "%",
+            "symbol": "circle",
+            "symbolSize": 10,
+            "colorList": [],
+            "grid": {
+              "top": 30,
+              "bottom": 10,
+              "left": 30,
+              "right": 30
+            },
+            "xAxisLabel": {
+              "rotate": 0,
+              "textLength": 5,
+              "margin": 20,
+              "align": "center"
+            },
+            "showLegend": false,
+            "legendPosition": {
+              "left": "center",
+              "top": "bottom"
+            },
+            "legendOrient": "horizontal",
+            "apiEnable": false,
+            "remote": {
+              "url": "",
+              "resolveFn": ""
+            }
+          },
+          "data": {
+            "xAxis": [
+              "一月",
+              "二月",
+              "三月",
+              "四月",
+              "五月",
+              "六月"
+            ],
+            "series": [
+              {
+                "name": "111",
+                "data": [
+                  34,
+                  51,
+                  63,
+                  75,
+                  86,
+                  59
+                ]
+              },
+              {
+                "name": "222",
+                "data": [
+                  71,
+                  35,
+                  41,
+                  53,
+                  67,
+                  71
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "banner",
+          "title": "Banner",
+          "layout": {
+            "width": "300px",
+            "height": "260px",
+            "left": "-334px",
+            "top": "-4px"
+          },
+          "options": {
+            "title": "Mamba out.",
+            "titleConfig": {
+              "fontSize": 20,
+              "color": "#ffffff",
+              "fontWeight": "bolder",
+              "position": {
+                "left": 20,
+                "top": 10
+              }
+            },
+            "content": "Kobe is the best basketball player.",
+            "contentConfig": {
+              "color": "#efefef",
+              "fontSize": 14,
+              "position": {
+                "left": 30,
+                "top": 50
+              }
+            },
+            "imgUrl": "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2552568315,2503293885&fm=26&gp=0.jpg",
+            "objectFit": "fill"
+          },
+          "data": {}
+        },
+        {
+          "type": "banner",
+          "title": "Banner",
+          "layout": {
+            "width": "353px",
+            "height": "257px",
+            "left": "35px",
+            "top": "92px",
+            "background": "http://localhost:9999/uploads/leak-bg.png",
+            "zIndex": 0
+          },
+          "options": {
+            "title": "",
+            "titleConfig": {
+              "fontSize": 20,
+              "color": "#ffffff",
+              "fontWeight": "bolder",
+              "position": {
+                "left": 20,
+                "top": 10
+              }
+            },
+            "content": "",
+            "contentConfig": {
+              "color": "#efefef",
+              "fontSize": 14,
+              "position": {
+                "left": 30,
+                "top": 50
+              }
+            },
+            "imgUrl": "http://localhost:9999/uploads/leak-bg.png",
+            "objectFit": "fill",
+            "select": true,
+            "radio": "c",
+            "switch": false
+          },
+          "data": {}
+        },
+        {
+          "type": "text",
+          "title": "",
+          "layout": {
+            "width": "233px",
+            "height": "260px",
+            "left": "30px",
+            "top": "82px"
+          },
+          "options": {
+            "content": "用户信息    >>",
+            "fontSize": 18,
+            "color": "#4a90e2",
+            "align": "left",
+            "fontWeight": 600
+          },
+          "data": {
+            "content": "请输入文本内容..."
+          }
+        },
+        {
+          "type": "text",
+          "title": "",
+          "layout": {
+            "width": "300px",
+            "height": "260px",
+            "left": "78px",
+            "top": "140px"
+          },
+          "options": {
+            "content": "三六零集团",
+            "fontSize": 35,
+            "color": "#ffffff",
+            "align": "center",
+            "fontWeight": 400
+          },
+          "data": {
+            "content": "请输入文本内容..."
+          }
+        },
+        {
+          "type": "text",
+          "title": "",
+          "layout": {
+            "width": "300px",
+            "height": "223px",
+            "left": "14px",
+            "top": "244px"
+          },
+          "options": {
+            "content": "租户数",
+            "fontSize": 26,
+            "color": "#ffffff",
+            "align": "center",
+            "fontWeight": 400
+          },
+          "data": {
+            "content": "请输入文本内容..."
+          }
+        },
+        {
+          "type": "text",
+          "title": "",
+          "layout": {
+            "width": "300px",
+            "height": "260px",
+            "left": "-316px",
+            "top": "612px"
+          },
+          "options": {
+            "content": "请输入文本内容...",
+            "fontSize": "14",
+            "color": "#888",
+            "align": "center",
+            "fontWeight": 400
+          },
+          "data": {
+            "content": "请输入文本内容..."
+          }
+        },
+        {
+          "type": "text",
+          "title": "",
+          "layout": {
+            "width": "300px",
+            "height": "260px",
+            "left": "100px",
+            "top": "236px"
+          },
+          "options": {
+            "content": "35",
+            "fontSize": 35,
+            "color": "#3e56de",
+            "align": "center",
+            "fontWeight": 600
+          },
+          "data": {
+            "content": "请输入文本内容..."
+          }
+        },
+        {
+          "type": "banner",
+          "title": "Banner",
+          "layout": {
+            "width": "60px",
+            "height": "53px",
+            "left": "63px",
+            "top": "160px"
+          },
+          "options": {
+            "title": "",
+            "titleConfig": {
+              "fontSize": 20,
+              "color": "#ffffff",
+              "fontWeight": "bolder",
+              "position": {
+                "left": 20,
+                "top": 10
+              }
+            },
+            "content": "",
+            "contentConfig": {
+              "color": "#efefef",
+              "fontSize": 14,
+              "position": {
+                "left": 30,
+                "top": 50
+              }
+            },
+            "imgUrl": "http://localhost:9999/uploads/IMGL2542 象鼻册（棕色）1010 寸 底片0.jpg",
+            "objectFit": "fill"
+          },
+          "data": {}
+        },
+        {
+          "type": "process",
+          "layout": {
+            "width": "300px",
+            "height": "260px",
+            "left": "-374px",
+            "top": "510px"
+          },
+          "options": {
+            "showTitle": true,
+            "colorList": [
+              "#32cd32"
+            ]
+          },
+          "data": {
+            "series": [
+              {
+                "value": 60,
+                "total": 100,
+                "desc": "分配率"
+              }
+            ]
+          }
+        },
+        {
+          "type": "banner",
+          "title": "Banner",
+          "layout": {
+            "width": "300px",
+            "height": "260px",
+            "left": "1148px",
+            "top": "89px"
+          },
+          "options": {
+            "title": "",
+            "titleConfig": {
+              "fontSize": 20,
+              "color": "#ffffff",
+              "fontWeight": "bolder",
+              "position": {
+                "left": 20,
+                "top": 10
+              }
+            },
+            "content": "",
+            "contentConfig": {
+              "color": "#efefef",
+              "fontSize": 14,
+              "position": {
+                "left": 30,
+                "top": 50
+              }
+            },
+            "imgUrl": "http://localhost:9999/uploads/leak-bg.png",
+            "objectFit": "fill"
+          },
+          "data": {}
+        },
+        {
+          "type": "process",
+          "layout": {
+            "width": "242px",
+            "height": "211px",
+            "left": "1178px",
+            "top": "125px"
+          },
+          "options": {
+            "showTitle": true,
+            "colorList": [
+              "#32cd32"
+            ]
+          },
+          "data": {
+            "series": [
+              {
+                "value": 60,
+                "total": 100,
+                "desc": "分配率"
+              }
+            ]
+          }
+        },
+        {
+          "type": "text",
+          "title": "",
+          "layout": {
+            "width": "300px",
+            "height": "260px",
+            "left": "1068px",
+            "top": "85px"
+          },
+          "options": {
+            "content": "资源分配率",
+            "fontSize": 18,
+            "color": "#4a90e2",
+            "align": "center",
+            "fontWeight": 600
+          },
+          "data": {
+            "content": "请输入文本内容..."
+          }
+        },
+        {
+          "type": "line",
+          "title": "Line Chart",
+          "layout": {
+            "width": "300px",
+            "height": "260px",
+            "left": "-355px",
+            "top": "-22px"
+          },
+          "options": {
+            "isSmooth": true,
+            "showArea": true,
+            "max": 100,
+            "unit": "%",
+            "symbol": "circle",
+            "symbolSize": 10,
+            "colorList": [],
+            "grid": {
+              "top": 30,
+              "bottom": 10,
+              "left": 30,
+              "right": 30
+            },
+            "xAxisLabel": {
+              "rotate": 0,
+              "textLength": 5,
+              "margin": 20,
+              "align": "center"
+            },
+            "showLegend": false,
+            "legendPosition": {
+              "left": "center",
+              "top": "bottom"
+            },
+            "legendOrient": "horizontal",
+            "apiEnable": false,
+            "remote": {
+              "url": "",
+              "resolveFn": ""
+            }
+          },
+          "data": {
+            "xAxis": [
+              "一月",
+              "二月",
+              "三月",
+              "四月",
+              "五月",
+              "六月"
+            ],
+            "series": [
+              {
+                "name": "111",
+                "data": [
+                  34,
+                  51,
+                  63,
+                  75,
+                  86,
+                  59
+                ]
+              },
+              {
+                "name": "222",
+                "data": [
+                  71,
+                  35,
+                  41,
+                  53,
+                  67,
+                  71
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "title": "Bar Chart",
+          "type": "bar",
+          "col": 12,
+          "layout": {
+            "width": "308px",
+            "height": "200px",
+            "left": "1146px",
+            "top": "396px",
+            "zIndex": 1
+          },
+          "options": {
+            "classify": "normal",
+            "isVertical": false,
+            "max": 100,
+            "unit": "%",
+            "isBorderRadius": true,
+            "showBackground": false,
+            "colorList": [
+              "#e7452f",
+              "#f98946",
+              "#ffde88",
+              "#5ab237"
+            ],
+            "showSeriesValue": true
+          },
+          "data": {
+            "xAxis": [
+              "1.12.12.1",
+              "1.12.12.2",
+              "1.12.12.12",
+              "1.12.12.112",
+              "1.12.12.88"
+            ],
+            "series": [
+              {
+                "name": "CPU使用率",
+                "data": [
+                  10,
+                  30,
+                  50,
+                  78,
+                  120
+                ],
+                "colors": [
+                  "yellow",
+                  "orange"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "banner",
+          "title": "Banner",
+          "layout": {
+            "width": "309px",
+            "height": "232px",
+            "left": "1148px",
+            "top": "363px"
+          },
+          "options": {
+            "title": "",
+            "titleConfig": {
+              "fontSize": 20,
+              "color": "#ffffff",
+              "fontWeight": "bolder",
+              "position": {
+                "left": 20,
+                "top": 10
+              }
+            },
+            "content": "",
+            "contentConfig": {
+              "color": "#efefef",
+              "fontSize": 14,
+              "position": {
+                "left": 30,
+                "top": 50
+              }
+            },
+            "imgUrl": "http://localhost:9999/uploads/leak-bg.png",
+            "objectFit": "fill"
+          },
+          "data": {}
+        },
+        {
+          "type": "text",
+          "title": "",
+          "layout": {
+            "width": "300px",
+            "height": "260px",
+            "left": "1056px",
+            "top": "354px"
+          },
+          "options": {
+            "content": "攻击源",
+            "fontSize": 18,
+            "color": "#4a90e2",
+            "align": "center",
+            "fontWeight": 600
+          },
+          "data": {
+            "content": "请输入文本内容..."
+          }
+        },
+        {
+          "type": "banner",
+          "title": "Banner",
+          "layout": {
+            "width": "312px",
+            "height": "225px",
+            "left": "1147px",
+            "top": "612px"
+          },
+          "options": {
+            "title": "",
+            "titleConfig": {
+              "fontSize": 20,
+              "color": "#ffffff",
+              "fontWeight": "bolder",
+              "position": {
+                "left": 20,
+                "top": 10
+              }
+            },
+            "content": "",
+            "contentConfig": {
+              "color": "#efefef",
+              "fontSize": 14,
+              "position": {
+                "left": 30,
+                "top": 50
+              }
+            },
+            "imgUrl": "http://localhost:9999/uploads/leak-bg.png",
+            "objectFit": "fill"
+          },
+          "data": {}
+        },
+        {
+          "title": "Bar Chart",
+          "type": "bar",
+          "col": 12,
+          "layout": {
+            "width": "317px",
+            "height": "171px",
+            "left": "1141px",
+            "top": "644px"
+          },
+          "options": {
+            "classify": "normal",
+            "isVertical": false,
+            "max": 100,
+            "unit": "%",
+            "isBorderRadius": true,
+            "showBackground": false,
+            "colorList": [
+              "#e7452f",
+              "#f98946",
+              "#ffde88",
+              "#5ab237"
+            ],
+            "showSeriesValue": true
+          },
+          "data": {
+            "xAxis": [
+              "1.12.12.1",
+              "1.12.12.2",
+              "1.12.12.12",
+              "1.12.12.112",
+              "1.12.12.88"
+            ],
+            "series": [
+              {
+                "name": "CPU使用率",
+                "data": [
+                  120,
+                  50,
+                  10,
+                  30,
+                  78
+                ],
+                "colors": [
+                  "yellow",
+                  "orange"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "text",
+          "title": "",
+          "layout": {
+            "width": "300px",
+            "height": "260px",
+            "left": "1053px",
+            "top": "600px"
+          },
+          "options": {
+            "content": "攻击对象",
+            "fontSize": 18,
+            "color": "#4a90e2",
+            "align": "center",
+            "fontWeight": 600
+          },
+          "data": {
+            "content": "请输入文本内容..."
+          }
+        },
+        {
+          "type": "threeStars",
+          "layout": {
+            "width": "300px",
+            "height": "260px",
+            "left": "-337px",
+            "top": "176px"
+          },
+          "options": {},
+          "data": {}
+        },
+        {
+          "type": "earth",
+          "layout": {
+            "width": "687px",
+            "height": "452px",
+            "left": "423px",
+            "top": "47px"
+          },
+          "options": {},
+          "data": {}
+        },
+        {
+          "type": "banner",
+          "title": "Banner",
+          "layout": {
+            "width": "687px",
+            "height": "296px",
+            "left": "422px",
+            "top": "539px"
+          },
+          "options": {
+            "title": "",
+            "titleConfig": {
+              "fontSize": 20,
+              "color": "#ffffff",
+              "fontWeight": "bolder",
+              "position": {
+                "left": 20,
+                "top": 10
+              }
+            },
+            "content": "",
+            "contentConfig": {
+              "color": "#efefef",
+              "fontSize": 14,
+              "position": {
+                "left": 30,
+                "top": 50
+              }
+            },
+            "imgUrl": "http://localhost:9999/uploads/leak-bg.png",
+            "objectFit": "fill"
+          },
+          "data": {}
+        },
+        {
+          "type": "line",
+          "title": "Line Chart",
+          "layout": {
+            "width": "679px",
+            "height": "246px",
+            "left": "424px",
+            "top": "586px"
+          },
+          "options": {
+            "isSmooth": true,
+            "showArea": true,
+            "max": 100,
+            "unit": "%",
+            "symbol": "circle",
+            "symbolSize": 10,
+            "colorList": [],
+            "grid": {
+              "top": 30,
+              "bottom": 10,
+              "left": 30,
+              "right": 30
+            },
+            "xAxisLabel": {
+              "rotate": 0,
+              "textLength": 5,
+              "margin": 20,
+              "align": "center"
+            },
+            "showLegend": false,
+            "legendPosition": {
+              "left": "center",
+              "top": "bottom"
+            },
+            "legendOrient": "horizontal",
+            "apiEnable": false,
+            "remote": {
+              "url": "",
+              "resolveFn": ""
+            }
+          },
+          "data": {
+            "xAxis": [
+              "一月",
+              "二月",
+              "三月",
+              "四月",
+              "五月",
+              "六月"
+            ],
+            "series": [
+              {
+                "name": "111",
+                "data": [
+                  34,
+                  51,
+                  63,
+                  75,
+                  86,
+                  59
+                ]
+              },
+              {
+                "name": "222",
+                "data": [
+                  71,
+                  35,
+                  41,
+                  53,
+                  67,
+                  71
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "text",
+          "title": "",
+          "layout": {
+            "width": "300px",
+            "height": "260px",
+            "left": "435px",
+            "top": "529px"
+          },
+          "options": {
+            "content": "告警严重程度",
+            "fontSize": 18,
+            "color": "#4a90e2",
+            "align": "left",
+            "fontWeight": 600
+          },
+          "data": {
+            "content": "请输入文本内容..."
+          }
+        },
+        {
+          "type": "banner",
+          "title": "Banner",
+          "layout": {
+            "width": "354px",
+            "height": "220px",
+            "left": "35px",
+            "top": "614px"
+          },
+          "options": {
+            "title": "",
+            "titleConfig": {
+              "fontSize": 20,
+              "color": "#ffffff",
+              "fontWeight": "bolder",
+              "position": {
+                "left": 20,
+                "top": 10
+              }
+            },
+            "content": "",
+            "contentConfig": {
+              "color": "#efefef",
+              "fontSize": 14,
+              "position": {
+                "left": 30,
+                "top": 50
+              }
+            },
+            "imgUrl": "http://localhost:9999/uploads/leak-bg.png",
+            "objectFit": "fill"
+          },
+          "data": {}
+        },
+        {
+          "title": "Bar Chart",
+          "type": "bar",
+          "col": 12,
+          "layout": {
+            "width": "351px",
+            "height": "227px",
+            "left": "36px",
+            "top": "605px"
+          },
+          "options": {
+            "classify": "battery",
+            "isVertical": false,
+            "max": 100,
+            "unit": "%",
+            "isBorderRadius": true,
+            "showBackground": true,
+            "colorList": [
+              "#e7452f",
+              "#f98946",
+              "#ffde88",
+              "#5ab237"
+            ],
+            "showSeriesValue": true,
+            "showLegend": false,
+            "showAxisLabel": true
+          },
+          "data": {
+            "xAxis": [
+              "1.12.12.1",
+              "1.12.12.2",
+              "1.12.12.12",
+              "1.12.12.112",
+              "1.12.12.88"
+            ],
+            "series": [
+              {
+                "name": "CPU使用率",
+                "data": [
+                  10,
+                  30,
+                  50,
+                  78,
+                  120
+                ],
+                "colors": [
+                  "yellow",
+                  "orange"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "text",
+          "title": "",
+          "layout": {
+            "width": "300px",
+            "height": "174px",
+            "left": "38px",
+            "top": "603px",
+            "zIndex": 2
+          },
+          "options": {
+            "content": "CPU使用率",
+            "fontSize": 18,
+            "color": "#4a90e2",
+            "align": "left",
+            "fontWeight": 600
+          },
+          "data": {
+            "content": "请输入文本内容..."
+          }
+        },
+        {
+          "type": "banner",
+          "title": "Banner",
+          "layout": {
+            "width": "355px",
+            "height": "230px",
+            "left": "35px",
+            "top": "366px"
+          },
+          "options": {
+            "title": "",
+            "titleConfig": {
+              "fontSize": 20,
+              "color": "#ffffff",
+              "fontWeight": "bolder",
+              "position": {
+                "left": 20,
+                "top": 10
+              }
+            },
+            "content": "",
+            "contentConfig": {
+              "color": "#efefef",
+              "fontSize": 14,
+              "position": {
+                "left": 30,
+                "top": 50
+              }
+            },
+            "imgUrl": "http://localhost:9999/uploads/leak-bg.png",
+            "objectFit": "fill"
+          },
+          "data": {}
+        },
+        {
+          "type": "text",
+          "title": "",
+          "layout": {
+            "width": "300px",
+            "height": "260px",
+            "left": "39px",
+            "top": "355px"
+          },
+          "options": {
+            "content": "内存使用率",
+            "fontSize": 18,
+            "color": "#4a90e2",
+            "align": "left",
+            "fontWeight": 600
+          },
+          "data": {
+            "content": "请输入文本内容..."
+          }
+        },
+        {
+          "title": "Bar Chart",
+          "type": "bar",
+          "col": 12,
+          "layout": {
+            "width": "348px",
+            "height": "219px",
+            "left": "39px",
+            "top": "348px"
+          },
+          "options": {
+            "classify": "battery",
+            "isVertical": false,
+            "max": 100,
+            "unit": "%",
+            "isBorderRadius": true,
+            "showBackground": false,
+            "colorList": [
+              "#e7452f",
+              "#f98946",
+              "#ffde88",
+              "#5ab237"
+            ],
+            "showSeriesValue": true
+          },
+          "data": {
+            "xAxis": [
+              "1.12.12.1",
+              "1.12.12.2",
+              "1.12.12.12",
+              "1.12.12.112",
+              "1.12.12.88"
+            ],
+            "series": [
+              {
+                "name": "CPU使用率",
+                "data": [
+                  10,
+                  30,
+                  50,
+                  78,
+                  120
+                ],
+                "colors": [
+                  "yellow",
+                  "orange"
+                ]
+              }
+            ]
+          }
         }
       ]
     }
