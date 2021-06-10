@@ -2,24 +2,24 @@
   {
     "id": 18,
     "name": "new_struct",
-    "theme": "light",
+    "theme": "dark",
     "isFullScreen": true,
     "config": {
       "type": "absolute",
       "layout": {
         "width": "1500px",
         "height": "800px",
-        "background": "http://localhost:9999/uploads/IMGL2542 象鼻册（棕色）1010 寸 底片0.jpg"
+        "background": "#000000"
       },
       "data": [
         {
           "type": "line",
           "title": "Line Chart",
           "layout": {
-            "width": "715px",
-            "height": "260px",
-            "left": "45px",
-            "top": "17px"
+            "width": "612px",
+            "height": "325px",
+            "left": "19px",
+            "top": "12px"
           },
           "options": {
             "isSmooth": true,
@@ -84,6 +84,98 @@
                   67,
                   71
                 ]
+              }
+            ]
+          }
+        },
+        {
+          "title": "Bar Chart",
+          "type": "bar",
+          "col": 12,
+          "layout": {
+            "width": "464px",
+            "height": "260px",
+            "left": "1024px",
+            "top": "29px"
+          },
+          "options": {
+            "classify": "normal",
+            "isVertical": false,
+            "max": 100,
+            "unit": "%",
+            "isBorderRadius": true,
+            "showBackground": false,
+            "colorList": [
+              "#e7452f",
+              "#f98946",
+              "#ffde88",
+              "#5ab237"
+            ],
+            "showSeriesValue": true
+          },
+          "data": {
+            "xAxis": [
+              "1.12.12.1",
+              "1.12.12.2",
+              "1.12.12.12",
+              "1.12.12.112",
+              "1.12.12.88"
+            ],
+            "series": [
+              {
+                "name": "CPU使用率",
+                "data": [
+                  120,
+                  50,
+                  10,
+                  30,
+                  78
+                ],
+                "colors": [
+                  "yellow",
+                  "orange"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "pie",
+          "layout": {
+            "width": "740px",
+            "height": "260px",
+            "left": "52px",
+            "top": "476px"
+          },
+          "options": {
+            "legendPosition": {
+              "top": 10,
+              "left": 5
+            },
+            "showTotal": false
+          },
+          "data": {
+            "total": 122,
+            "series": [
+              {
+                "name": "CWPP-病毒查杀",
+                "value": 33
+              },
+              {
+                "name": "vDB-数据库安全威胁",
+                "value": 23
+              },
+              {
+                "name": "vNGFW-病毒威胁",
+                "value": 20
+              },
+              {
+                "name": "vVulnScan-网络漏洞扫描",
+                "value": 15
+              },
+              {
+                "name": "vNGFW-Flood攻击",
+                "value": 10
               }
             ]
           }
@@ -101,17 +193,18 @@
       "layout": {
         "width": "1500px",
         "height": "800px",
-        "background": "#cb1111"
+        "background": "http://localhost:9999/uploads/IMGL2542 象鼻册（棕色）1010 寸 底片0.jpg"
       },
       "data": [
         {
           "type": "line",
           "title": "Line Chart",
           "layout": {
-            "width": "715px",
+            "width": "484px",
             "height": "260px",
-            "left": "45px",
-            "top": "17px"
+            "left": "774px",
+            "top": "577px",
+            "zIndex": 2
           },
           "options": {
             "isSmooth": true,
@@ -179,6 +272,298 @@
               }
             ]
           }
+        },
+        {
+          "title": "Bar Chart",
+          "type": "bar",
+          "col": 12,
+          "layout": {
+            "width": "501px",
+            "height": "260px",
+            "left": "953px",
+            "top": "10px"
+          },
+          "options": {
+            "classify": "normal",
+            "isVertical": false,
+            "max": 100,
+            "unit": "%",
+            "isBorderRadius": true,
+            "showBackground": false,
+            "colorList": [
+              "#e7452f",
+              "#f98946",
+              "#ffde88",
+              "#5ab237"
+            ],
+            "showSeriesValue": true
+          },
+          "data": {
+            "xAxis": [
+              "1.12.12.1",
+              "1.12.12.2",
+              "1.12.12.12",
+              "1.12.12.112",
+              "1.12.12.88"
+            ],
+            "series": [
+              {
+                "name": "CPU使用率",
+                "data": [
+                  120,
+                  50,
+                  10,
+                  30,
+                  78
+                ],
+                "colors": [
+                  "yellow",
+                  "orange"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "title": "Bar Chart",
+          "type": "bar",
+          "col": 12,
+          "layout": {
+            "width": "300px",
+            "height": "260px",
+            "left": "-311px",
+            "top": "328px"
+          },
+          "options": {
+            "classify": "normal",
+            "isVertical": false,
+            "max": 100,
+            "unit": "%",
+            "isBorderRadius": true,
+            "showBackground": false,
+            "colorList": [
+              "#e7452f",
+              "#f98946",
+              "#ffde88",
+              "#5ab237"
+            ],
+            "showSeriesValue": true
+          },
+          "data": {
+            "xAxis": [
+              "1.12.12.1",
+              "1.12.12.2",
+              "1.12.12.12",
+              "1.12.12.112",
+              "1.12.12.88"
+            ],
+            "series": [
+              {
+                "name": "CPU使用率",
+                "data": [
+                  120,
+                  50,
+                  10,
+                  30,
+                  78
+                ],
+                "colors": [
+                  "yellow",
+                  "orange"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "pie",
+          "layout": {
+            "width": "300px",
+            "height": "260px",
+            "left": "1159px",
+            "top": "353px"
+          },
+          "options": {
+            "legendPosition": {
+              "top": 10,
+              "left": 5
+            },
+            "showTotal": false
+          },
+          "data": {
+            "total": 122,
+            "series": [
+              {
+                "name": "CWPP-病毒查杀",
+                "value": 33
+              },
+              {
+                "name": "vDB-数据库安全威胁",
+                "value": 23
+              },
+              {
+                "name": "vNGFW-病毒威胁",
+                "value": 20
+              },
+              {
+                "name": "vVulnScan-网络漏洞扫描",
+                "value": 15
+              },
+              {
+                "name": "vNGFW-Flood攻击",
+                "value": 10
+              }
+            ]
+          }
+        },
+        {
+          "type": "process",
+          "layout": {
+            "width": "300px",
+            "height": "260px",
+            "left": "18px",
+            "top": "361px"
+          },
+          "options": {
+            "showTitle": true,
+            "colorList": [
+              "#32cd32"
+            ]
+          },
+          "data": {
+            "series": [
+              {
+                "value": 60,
+                "total": 100,
+                "desc": "分配率"
+              }
+            ]
+          }
+        },
+        {
+          "type": "banner",
+          "title": "Banner",
+          "layout": {
+            "width": "597px",
+            "height": "330px",
+            "left": "395px",
+            "top": "68px"
+          },
+          "options": {
+            "title": "Mamba out.",
+            "titleConfig": {
+              "fontSize": 20,
+              "color": "#ffffff",
+              "fontWeight": "bolder",
+              "position": {
+                "left": 20,
+                "top": 10
+              }
+            },
+            "content": "Kobe is the best basketball player.",
+            "contentConfig": {
+              "color": "#efefef",
+              "fontSize": 14,
+              "position": {
+                "left": 30,
+                "top": 50
+              }
+            },
+            "imgUrl": "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2552568315,2503293885&fm=26&gp=0.jpg",
+            "objectFit": "fill"
+          },
+          "data": {}
+        },
+        {
+          "type": "line",
+          "title": "Line Chart",
+          "layout": {
+            "width": "497px",
+            "height": "260px",
+            "left": "420px",
+            "top": "106px",
+            "background": "http://localhost:9999/uploads/leak-bg.png"
+          },
+          "options": {
+            "isSmooth": true,
+            "showArea": true,
+            "max": 100,
+            "unit": "%",
+            "symbol": "circle",
+            "symbolSize": 10,
+            "colorList": [],
+            "grid": {
+              "top": 30,
+              "bottom": 10,
+              "left": 30,
+              "right": 30
+            },
+            "xAxisLabel": {
+              "rotate": 0,
+              "textLength": 5,
+              "margin": 20,
+              "align": "center"
+            },
+            "showLegend": false,
+            "legendPosition": {
+              "left": "center",
+              "top": "bottom"
+            },
+            "legendOrient": "horizontal",
+            "apiEnable": false,
+            "remote": {
+              "url": "",
+              "resolveFn": ""
+            }
+          },
+          "data": {
+            "xAxis": [
+              "一月",
+              "二月",
+              "三月",
+              "四月",
+              "五月",
+              "六月"
+            ],
+            "series": [
+              {
+                "name": "111",
+                "data": [
+                  34,
+                  51,
+                  63,
+                  75,
+                  86,
+                  59
+                ]
+              },
+              {
+                "name": "222",
+                "data": [
+                  71,
+                  35,
+                  41,
+                  53,
+                  67,
+                  71
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "richText",
+          "title": "Rich Text",
+          "layout": {
+            "width": "300px",
+            "height": "260px",
+            "left": "56px",
+            "top": "88px"
+          },
+          "options": {
+            "html": "<h1 style=\"text-align:center;\" size=\"0\" _root=\"undefined\" __ownerid=\"undefined\" __hash=\"undefined\" __altered=\"false\"><span style=\"color:#fdda00\">hello world</span></h1><p style=\"text-align:center;\"><span style=\"font-size:30px\"><span style=\"color:#003ba5\">白日依山尽，黄河入海流。欲穷千里目，更上一层楼。</span></span></p><p class=\"media-wrap image-wrap align-center\"></p><p></p><div class=\"media-wrap image-wrap\"><img src=\"http://localhost:9999/uploads/攻击目标地址TOP10.png\"/></div><p></p>"
+          },
+          "data": {}
         }
       ]
     }

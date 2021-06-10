@@ -6,7 +6,7 @@ app.use(bodyParser.urlencoded({ extended: false }))
 const fs = require('fs')
 const path = require('path')
 const multer = require('multer')
-
+const axios = require('axios')
 app.use(express.static("public"))
 
 const HOST = 'http://localhost:9999/'
@@ -204,6 +204,18 @@ app.get('/module-line-data', (req, res) => {
       ],
     },
   })
+})
+
+app.all('*', async (req, res) => {
+  if (req.url.startsWith('/api')) {
+    let response = await axios({
+      baseURL: 'http://10.247.4.10:9001',
+      method: req.method,
+      url: req.url,
+      data: req.body
+    })
+    res.json(response.data)
+  }
 })
 
 let server = app.listen(9999, function () {
