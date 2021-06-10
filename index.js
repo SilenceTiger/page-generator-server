@@ -206,8 +206,9 @@ app.get('/module-line-data', (req, res) => {
   })
 })
 
-app.all('*', async (req, res) => {
-  if (req.url.startsWith('/api')) {
+// 请求转发
+app.all('/api/*', async (req, res) => {
+  try {
     let response = await axios({
       baseURL: 'http://10.247.4.10:9001',
       method: req.method,
@@ -215,6 +216,11 @@ app.all('*', async (req, res) => {
       data: req.body
     })
     res.json(response.data)
+  }
+  catch (e) {
+    res.json({
+      code: 404
+    })
   }
 })
 
